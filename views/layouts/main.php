@@ -1,0 +1,191 @@
+<?php
+
+/* @var $this \yii\web\View */
+/* @var $content string */
+
+use yii\helpers\Html;
+use yii\bootstrap\Nav;
+use yii\bootstrap\NavBar;
+use yii\widgets\Breadcrumbs;
+use app\assets\AppAsset;
+
+AppAsset::register($this);
+?>
+<?php 
+$this->beginPage();
+if(Yii::$app->language == "AR"){
+    ?>
+    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+    <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ar" lang="ar" dir="rtl">
+    <?php
+}else{
+    ?>
+    <!DOCTYPE html>
+    <html lang="<?= Yii::$app->language ?>">
+    <?php
+}
+?>
+<head>
+    <meta charset="<?= Yii::$app->charset ?>">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <?= Html::csrfMetaTags() ?>
+    <title><?= Html::encode($this->title) ?></title>
+    <?php $this->head() ?>
+</head>
+<body>
+    <?php $this->beginBody() ?>
+
+    <div class="wrap">
+        <?php
+        NavBar::begin([
+            'brandLabel' => "#!Marostack_",
+            'brandUrl' => Yii::$app->homeUrl,
+            'options' => [
+            'class' => 'navbar-inverse navbar-fixed-top',
+            ],
+            ]);
+        echo Nav::widget([
+            'options' => ['class' => 'navbar-nav navbar-right'],
+            'items' => [
+            ['label' => 'Accueil', 'url' => ['/site/index']],
+            ['label' => 'Présentation', 'url' => ['/site/apropos']],
+            ['label' => 'Expertises', 'items' => [
+            "<li class='dropdown-header'>Système d'Information</li>",
+            ['label' => "Étude et Analyse de Faisabilité", 'url' => '#'],
+            ['label' => "Migration et Reprise de Données", 'url' => '#'],
+            ['label' => "Cartographie des Processus", 'url' => '#'],
+            ['label' => "Cartographie des Risques", 'url' => '#'],
+            "<li class='divider'></li>",
+            "<li class='dropdown-header'>Assistance Technique</li>",
+            ['label' => "Administration d'infrastructure", 'url' => '#'],
+            ['label' => "Support utilisateur - Helpdesk", 'url' => '#'],
+            ['label' => "Accompagnement Contrôle Interne", 'url' => '#'],
+            ['label' => "Etude d'Informatisation", 'url' => '#'],
+            "<li class='divider'></li>",
+            "<li class='dropdown-header'>Audit d'Infrastructure</li>",
+            ['label' => "Audit de vulnerabilité d'Information", 'url' => '#'],
+            ['label' => "Audit du parc Logiciel et Materiel", 'url' => '#'],
+            ['label' => "Audit Réseaux et Sécurité d'Accées", 'url' => '#'],
+            ],
+            ],
+            ['label' => 'Solutions', 'items' => [
+            '<li class="dropdown-header">Edition de programme</li>',
+                ['label' => 'Application SaaS', 'url' => '#'],
+                ['label' => 'Embarquée - Android/IOS', 'url' => '#'],
+                ['label' => 'Web service / API', 'url' => '#'],
+                ['label' => "Controle avancée - Myo", 'url' => '#'],
+                ['label' => "Prototypage - Arduino", 'url' => '#'],
+            '<li class="divider"></li>',
+            '<li class="dropdown-header">Réseaux et Sécurité</li>',
+                ['label' => 'Accées distant / VPN SSL', 'url' => '#'],
+                ['label' => "Stockage de données", 'url' => '#'],
+                ['label' => "Chiffrage de données", 'url' => '#'],
+                ['label' => 'Téléphonie Locale', 'url' => '#'],
+                ['label' => 'Internet et Wifi', 'url' => '#'],
+                ['label' => 'Integration et géstion de logs', 'url' => '#'],
+            '<li class="divider"></li>',
+            '<li class="dropdown-header">Progiciels</li>',
+                ['label' => 'Gestion de Stocke', 'url' => '#'],
+                ['label' => "Gestion de la Force de Vente", 'url' => '#'],
+                ['label' => "Gestion des Entrepôts", 'url' => '#'],
+                ['label' => "Gestion de la Facturation", 'url' => '#'],
+                ['label' => "Gestion de la Paie", 'url' => '#'],
+            ],
+            ],
+            ['label' => 'Formation',
+            'items' => [
+            '<li class="dropdown-header">Droit informatique</li>',
+            ['label' => 'Droit du commerce électronique','url' => '#'],
+            ['label' => 'Droit de la communication numérique','url' => '#'],
+            ['label' => 'Droit de la propriété intellectuelle','url' => '#'],
+            ['label' => 'Droit de protection des données personnelles','url' => '#'],
+            '<li class="divider"></li>',
+            '<li class="dropdown-header">Veille technologique</li>',
+            ['label' => 'Risque informatique', 'url' => '#'],
+            ['label' => 'Collaboration interEntrerise', 'url' => '#'],
+            ['label' => 'Urbanisation des SI', 'url' => '#'],
+            ['label' => "Email et Bureautique", 'url' => '#'],
+            ['label' => 'Rationalisation des coûts', 'url' => '#'],
+            '<li class="divider"></li>',
+            '<li class="dropdown-header">GNU/Linux OS</li>',
+            ['label' => 'Linux Daily uses', 'url' => '#'],
+            ['label' => 'Linux Devs & Servers', 'url' => '#'],
+            ['label' => 'Linux Security & Network', 'url' => '#'],
+            ],
+            ],
+            ['label' => 'Filiales',
+            'items' => [
+            '<li class="dropdown-header">Hébérgement, Nom de domaine et SSL</li>',            
+            ['label' => 'MaghribUp', 'url' => '#'],
+            '<li class="divider"></li>',
+            '<li class="dropdown-header">Site vitrine rapide</li>',
+            ['label' => 'MicroSite', 'url' => '#'],
+            '<li class="divider"></li>',
+            '<li class="dropdown-header">Tableurs de gestion sur mesure</li>',            
+            ['label' => 'PMEStarter', 'url' => '#'],
+            '<li class="divider"></li>',
+            '<li class="dropdown-header">Solution SMS intégrale pour votre SI</li>',            
+            ['label' => 'SmsDaba', 'url' => '#'],
+            '<li class="divider"></li>',
+            '<li class="dropdown-header">Centre de saisie et de numérisation</li>',
+            ['label' => 'Numerini', 'url' => '#'],
+            '<li class="divider"></li>',
+            "<li class='dropdown-header'>Plateforme d'assistance technique</li>",
+            ['label' => 'MaroNetHelp', 'url' => '#'],
+            '<li class="divider"></li>',
+            '<li class="dropdown-header">Portail des idols marocains</li>',
+            ['label' => 'Nasna', 'url' => '#'],
+            ],
+            ],
+            ['label' => 'Technologies', 'url' => ['#']],
+            ['label' => 'Partenaires', 'url' => ['#']],
+            ['label' => 'Références', 'url' => ['#']],
+            // ['label' => 'Recrutement', 'url' => ['#']],
+            ['label' => 'Contact', 'url' => ['/site/contact']],
+
+            // Yii::$app->user->isGuest ?
+            //     ['label' => 'Login', 'url' => ['/site/login']] :
+            //     [
+            //         'label' => 'Logout (' . Yii::$app->user->identity->username . ')',
+            //         'url' => ['/site/logout'],
+            //         'linkOptions' => ['data-method' => 'post']
+            //     ],
+            ],
+            ]);
+NavBar::end();
+?>
+
+<div class="container">
+
+    <div>
+
+        <?= Breadcrumbs::widget([
+            'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
+            ]) ?>
+
+            <?= $content ?>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-1">
+                    <p class="pull-right">
+                        <div  id="language-selector" class="pull-left" >
+                            <?= \app\components\widgets\LanguageSelector::widget(); ?>
+                        </div>
+                    </p>
+                </div>
+                <div class="col-md-11 text-center">
+                    <p class="text-muted">&copy; Marostack <?= date('Y') ?> - Tout droits réservé, <a href="#">Mentions légale</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <?php $this->endBody() ?>
+</body>
+</html>
+<?php $this->endPage() ?>
