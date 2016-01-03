@@ -48,7 +48,7 @@ if(Yii::$app->language == "AR"){
         echo Nav::widget([
             'options' => ['class' => 'navbar-nav navbar-right'],
             'items' => [
-            ['label' => 'Accueil', 'url' => ['/site/index']],
+            ['label' => 'Accueil', 'url' => ['site/index']],
             ['label' => 'Présentation', 'url' => ['/site/apropos']],
             ['label' => 'Expertises', 'items' => [
             "<li class='dropdown-header'>Système d'Information</li>",
@@ -128,14 +128,14 @@ if(Yii::$app->language == "AR"){
             '<li class="dropdown-header">Solution SMS intégrale pour votre SI</li>',            
             ['label' => 'SmsDaba', 'url' => '#'],
             '<li class="divider"></li>',
-            '<li class="dropdown-header">Centre de saisie et de numérisation</li>',
+            '<li class="dropdown-header">Centre de Saisie et de Numérisation</li>',
             ['label' => 'Numerini', 'url' => '#'],
             '<li class="divider"></li>',
-            "<li class='dropdown-header'>Plateforme d'assistance technique</li>",
+            "<li class='dropdown-header'>Plateforme d'Assistance Technique</li>",
             ['label' => 'MaroNetHelp', 'url' => '#'],
             '<li class="divider"></li>',
-            '<li class="dropdown-header">Portail des idols marocains</li>',
-            ['label' => 'Nasna', 'url' => '#'],
+            '<li class="dropdown-header">Portail des Idols Marocains</li>',
+            ['label' => 'Nasna', 'url' => '#', 'options' => ['style' => 'margin-bottom:5px;']],
             ],
             ],
             ['label' => 'Technologies', 'url' => ['#']],
