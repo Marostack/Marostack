@@ -33,22 +33,21 @@ $this->title = 'Marostack';
                     d'ouvrage déléguée, recette, déploiement, formation des utilisateurs, conduite de changement, évaluation 
                     en plus des missions post-projet de retour et capitalisation d'experience.</p>
 
-                        <p><a class="btn btn-default pull-right" href="http://www.yiiframework.com/doc/">Plus &raquo;</a></p>
+                        <p><a class="btn btn-default pull-right" href="#">Plus &raquo;</a></p>
                     </div>
                     <div class="col-lg-4">
                         <h2>Solutions</h2>
 
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                            ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                            fugiat nulla pariatur.</p>
+                        <p class="text-justify">Marostack mis a votre disposition une large panoplie de solution système {logiciel/materiel} dédié 
+                        à different situation de gestion des ressources informationnelles d'entreprise, adapté aux scénarios métiers les plus repondus, avec
+                         un niveau de paramétrage et de configuration autand profond qu'il est necessaire pour assuré une résultat optimale.</p>
 
-                            <p><a class="btn btn-default" href="http://www.yiiframework.com/forum/">Solutions &raquo;</a></p>
+                        <p><a class="btn btn-default pull-right" href="#">Plus &raquo;</a></p>
                         </div>
                         <div class="col-lg-4">
                             <h2>Formations</h2>
 
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                            <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
                                 dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
                                 ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
                                 fugiat nulla pariatur.</p>

@@ -36,7 +36,7 @@
                             'csrf'=>true,
                         ),
                         array(
-                            'class'=>'form-control'
+                            'class'=>'dropdown-menu'
                         )
                     ); 
 		}
