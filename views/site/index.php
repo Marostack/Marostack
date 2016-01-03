@@ -47,10 +47,9 @@ $this->title = 'Marostack';
                         <div class="col-lg-4">
                             <h2>Formations</h2>
 
-                            <p class="text-justify" style="line-height:160%">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                                fugiat nulla pariatur.</p>
+                            <p class="text-justify" style="line-height:160%">Suivant votre strategie de developpement interne, en vous propose 
+                            une vaste gamme de solutions de formations et d’apprentissage qui vont dynamiser vos équipes d'administration et de production 
+                            pour qui y gagneront en compétence professionnelle et amélioration de leurs performances; cela dans nos locaux dédié ou chez les votre.</p>
 
                         <p><a class="btn btn-default pull-right" href="#">Plus &raquo;</a></p>
                             </div>
