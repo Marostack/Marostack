@@ -83,20 +83,47 @@
 			"file": "views/layouts/main.php",
 			"settings":
 			{
-				"buffer_size": 7320,
+				"buffer_size": 8323,
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "components/widgets/views/languageSelector.php",
+			"settings":
+			{
+				"buffer_size": 2079,
+				"line_ending": "Windows"
 			}
 		},
 		{
 			"file": "views/site/index.php",
 			"settings":
 			{
-				"buffer_size": 4389,
+				"buffer_size": 4332,
 				"line_ending": "Unix"
 			}
 		},
 		{
+			"file": "views/site/apropos.php",
+			"settings":
+			{
+				"buffer_size": 1654,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "controllers/SiteController.php",
+			"settings":
+			{
+				"buffer_size": 2855,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Down for upgrade... loading the awesome !",
 			"file": "/home/mehdi/index.html",
+			"file_size": 41,
+			"file_write_time": 130962889372198003,
 			"settings":
 			{
 				"buffer_size": 41,
@@ -144,7 +171,9 @@
 	},
 	"expanded_folders":
 	[
-		"/var/www/html/marostack",
+		"/var/www/html/marostack/components/widgets",
+		"/var/www/html/marostack/components/widgets/views",
+		"/var/www/html/marostack/controllers",
 		"/var/www/html/marostack/views",
 		"/var/www/html/marostack/views/layouts",
 		"/var/www/html/marostack/views/site"
@@ -300,6 +329,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			" class=\"lead\"",
+			"L’infogérance ",
+			"=\"#\">",
 			" cannot be blank.",
 			"btn",
 			"jumbotron",
@@ -428,7 +460,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 4,
 			"sheets":
 			[
 				{
@@ -437,15 +469,133 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7320,
+						"buffer_size": 8323,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2116,
-								2116
+								1859,
+								1859
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 19.0,
+						"translation.y": 663.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "components/widgets/views/languageSelector.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2079,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								280,
+								280
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "views/site/index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4332,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3159,
+								3159
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 408.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "views/site/apropos.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1654,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								776,
+								776
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "controllers/SiteController.php",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 2855,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
 							]
 						],
 						"settings":
@@ -458,41 +608,11 @@
 						"translation.y": 1020.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "views/site/index.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4389,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1299,
-								1299
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 357.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
+					"buffer": 5,
 					"file": "/home/mehdi/index.html",
 					"semi_transient": false,
 					"settings":
@@ -516,7 +636,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 5,
 					"type": "text"
 				}
 			]
@@ -603,7 +723,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 311.0,
+	"side_bar_width": 266.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

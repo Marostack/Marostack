@@ -14,36 +14,36 @@ class SiteController extends Controller
     public function behaviors()
     {
         return [
-            'access' => [
-                'class' => AccessControl::className(),
-                'only' => ['logout'],
-                'rules' => [
-                    [
-                        'actions' => ['logout'],
-                        'allow' => true,
-                        'roles' => ['@'],
-                    ],
-                ],
-            ],
-            'verbs' => [
-                'class' => VerbFilter::className(),
-                'actions' => [
-                    'logout' => ['post'],
-                ],
-            ],
+        'access' => [
+        'class' => AccessControl::className(),
+        'only' => ['logout'],
+        'rules' => [
+        [
+        'actions' => ['logout'],
+        'allow' => true,
+        'roles' => ['@'],
+        ],
+        ],
+        ],
+        'verbs' => [
+        'class' => VerbFilter::className(),
+        'actions' => [
+        'logout' => ['post'],
+        ],
+        ],
         ];
     }
 
     public function actions()
     {
         return [
-            'error' => [
-                'class' => 'yii\web\ErrorAction',
-            ],
-            'captcha' => [
-                'class' => 'yii\captcha\CaptchaAction',
-                'fixedVerifyCode' => YII_ENV_TEST ? 'testme' : null,
-            ],
+        'error' => [
+        'class' => 'yii\web\ErrorAction',
+        ],
+        'captcha' => [
+        'class' => 'yii\captcha\CaptchaAction',
+        'fixedVerifyCode' => YII_ENV_TEST ? 'testme' : null,
+        ],
         ];
     }
 
@@ -64,7 +64,7 @@ class SiteController extends Controller
         }
         return $this->render('login', [
             'model' => $model,
-        ]);
+            ]);
     }
 
     public function actionLogout()
@@ -84,7 +84,7 @@ class SiteController extends Controller
         }
         return $this->render('contact', [
             'model' => $model,
-        ]);
+            ]);
     }
 
     public function actionApropos()
@@ -92,20 +92,70 @@ class SiteController extends Controller
         return $this->render('apropos');
     }
 
+    public function actionEtudenalyse()
+    {
+        return $this->render('etudeanalyse');
+    }
+
+    public function actionPartener()
+    {
+        return $this->render('partener');
+    }
+
+    public function actionTechnologies()
+    {
+        return $this->render('technologies');
+    }
+
+    public function actionMaghribup()
+    {
+        return $this->render('maghribup');
+    }
+
+    public function actionMicrosite()
+    {
+        return $this->render('microsite');
+    }
+
+    public function actionPmestarter()
+    {
+        return $this->render('pmestarter');
+    }
+
+    public function actionSmsdaba()
+    {
+        return $this->render('smsdaba');
+    }
+
+    public function actionMaronethelp()
+    {
+        return $this->render('maronethelp');
+    }
+
+    public function actionNasna()
+    {
+        return $this->render('nasna');
+    }
+
+    public function actionNumerini()
+    {
+        return $this->render('numerini');
+    }
+
    /**
      * Ajax handler for language change dropdown list. Sets cookie ready for next request
      */
-    public function actionLanguage()
+   public function actionLanguage()
+   {
+    if ( Yii::$app->request->post('_lang') !== NULL && array_key_exists(Yii::$app->request->post('_lang'), Yii::$app->params['languages']))
     {
-        if ( Yii::$app->request->post('_lang') !== NULL && array_key_exists(Yii::$app->request->post('_lang'), Yii::$app->params['languages']))
-        {
-            Yii::$app->language = Yii::$app->request->post('_lang');
-            $cookie = new yii\web\Cookie([
+        Yii::$app->language = Yii::$app->request->post('_lang');
+        $cookie = new yii\web\Cookie([
             'name' => '_lang',
             'value' => Yii::$app->request->post('_lang'),
             ]);
-            Yii::$app->getResponse()->getCookies()->add($cookie);
-        }
-        Yii::$app->end();
+        Yii::$app->getResponse()->getCookies()->add($cookie);
     }
+    Yii::$app->end();
+}
 }
