@@ -49,8 +49,16 @@ if(Yii::$app->language == "AR"){
             'options' => ['class' => 'navbar-nav navbar-right'],
             'items' => [
             ['label' => 'Accueil', 'url' => ['site/index']],
-            ['label' => 'Présentation', 'url' => ['/site/apropos']],
-            ['label' => 'Expertises', 'items' => [
+            ['label' => 'Présentation', 'items' => [
+            "<li class='dropdown-header'>Système d'Information</li>",
+                ['label' => "Mot de la Direction Générale", 'url' => '#'],
+                ['label' => "Activités Marostack", 'url' => '/site/apropos'],
+		['label' => "Qualité & Developpement durable", 'url' => '#'],
+                "<li class='divider'></li>",
+                "<li class='dropdown-header'>Ressources</li>",
+                ['label' => "Logos et images de marque", 'url' => '#'],
+            ],],
+	   ['label' => 'Expertises', 'items' => [
             "<li class='dropdown-header'>Système d'Information</li>",
                 ['label' => "Étude et Analyse de Faisabilité", 'url' => '/site/etudeanalyse'],
                 ['label' => "Migration et Reprise de Données", 'url' => '#'],
@@ -94,7 +102,7 @@ if(Yii::$app->language == "AR"){
                 ['label' => "Gestion de la Paie", 'url' => '#'],
             ],
             ],
-            ['label' => 'Formation',
+            ['label' => 'Formations',
             'items' => [
             '<li class="dropdown-header">Droit informatique</li>',
             ['label' => 'Droit du commerce électronique','url' => '#'],
@@ -115,7 +123,7 @@ if(Yii::$app->language == "AR"){
             ['label' => 'Linux Security & Network', 'url' => '#'],
             ],
             ],
-            ['label' => 'Filiales',
+            ['label' => 'Marques',
             'items' => [
             '<li class="dropdown-header">Hébérgement, Nom de domaine et SSL</li>',            
             ['label' => 'MaghribUp', 'url' => '/maghribup'],
@@ -139,10 +147,10 @@ if(Yii::$app->language == "AR"){
             ['label' => 'Nasna', 'url' => '/nasna', 'options' => ['style' => 'margin-bottom:5px;']],
             ],
             ],
-            ['label' => 'Technologies', 'url' => ['/site/technologies']],
-            ['label' => 'Partenaires', 'url' => ['/site/partener']],
-            //['label' => 'Références', 'url' => ['/site/reference']],
-            // ['label' => 'Recrutement', 'url' => ['#']],
+            //['label' => 'Technologies', 'url' => ['/site/technologies']],
+            //['label' => 'Partenaires', 'url' => ['/site/partener']],
+            ['label' => 'Références', 'url' => ['/site/references']],
+            //['label' => 'Evenement', 'url' => ['#']],
             ['label' => 'Contact', 'url' => ['/site/contact']],
 
             // Yii::$app->user->isGuest ?
@@ -180,7 +188,7 @@ NavBar::end();
                     </p>
                 </div>
                 <div class="col-md-11 text-center">
-                    <p class="text-muted">&copy; Marostack <?= date('Y') ?> - Tout droits réservé, <a href="#">Mentions légale</a></p>
+                    <p class="text-muted" style="font-size: 14px">&copy; Marostack <?= date('Y') ?> - Tout droits réservé, <a href="#">Mentions légale</a></p>
                 </div>
             </div>
         </div>

@@ -142,6 +142,11 @@ class SiteController extends Controller
         return $this->render('numerini');
     }
 
+    public function actionReferences()
+    {
+        return $this->render('references');
+    }
+
    /**
      * Ajax handler for language change dropdown list. Sets cookie ready for next request
      */
