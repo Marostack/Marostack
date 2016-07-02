@@ -11,8 +11,7 @@ $this->title = 'Marostack';
         <div class="row">
             <div class="col-md-8">
                 <p class="lead">
-                    Spécialisé dans les domaines d'informatique et d'industrie, <span class="text-danger">Marostack</span> est une 
-                    entreprise dont le métier est l'utilisation combinée de moyens informatiques, électroniques et 
+                    Spécialisé dans les domaines d'informatique et d'industrie, <span class="text-danger">Marostack</span>  est une entreprise dont le métier est l'utilisation combinée de moyens informatiques, électroniques et 
                     de procédés de télécommunication, dans une vision de mise en place et d'amélioration des systèmes 
                     d'information.
                 </p>
@@ -29,7 +28,7 @@ $this->title = 'Marostack';
             système informatique, votre besoin sera traiter avec le niveau le plus optimale en terme de côut et de technologie.
         </p>
 
-            <!-- <p class="text-right"><a class="btn btn-default btn-sm" href="/">En savoir plus</a></p> -->
+            <p class="text-left"><a class="btn btn-default btn-sm" href="/apropos">Plus &raquo;</a></p>
     </div>
 
     <div class="body-content">
@@ -70,10 +69,10 @@ $this->title = 'Marostack';
         <div class="row">
             <div class="col-lg-12">
                 <div class="page-header">
-                    <h1>Vous etes meuilleurs ! <small> avec un système d'information qui accompagne votre developpment.</small></h1>
+                    <h1>Vous etes meilleurs ! <small> avec un système d'information qui accompagne votre developpment.</small></h1>
                 </div>
                 <p class="text-justify lead">
-                    Nous vous offerons des systèmes informatisés, généralement destinés aux gestionnaires des differents départements d'organisations. L'objectif de construire un système informatique technologiques est d'aider les différentes collaborteur a mieu gérer leur activités du jour au jour, de la rementé d'information, en passent a sont traitement, tout cela et plus de tout ce qui peut aider les organisations dans le processus de prise de décision.
+                 L'objectif de construire un système informatique technologiques est d'aider les différentes collaborteur a mieu gérer leur activités du jour au jour, de la rementé d'information, en passent a sont traitement, tout cela et plus de tout ce qui peut aider les organisations dans le processus de prise de décision. Nous vous offerons des systèmes informatisés, destinés aux gestionnaires des differents départements de l'entreprise. 
 		</p>
                 <p class="text-justify">
 		    Et aussi connu que les informations à fournir des informations sur le passé et le présent par rapport aux activités de l'institution pour aider la direction dans les systèmes de prise de décision. L'utilisation des institutions des systèmes informatiques dans les processus administratifs à alléger les charges et soulager les charges financières sur le personnel, et surmonte un grand nombre des inconvénients de l'action humaine qui peuvent être causés par l'ennui de la routine, ou le manque de motivation morale travail nécessaire. Il contribue également à réduire la taille des institutions, ce qui augmente le fardeau. La possession d'institutions pour les systèmes d'information de gestion augmente la compétitivité de l'institution dans le milieu de travail. Mais un autre inconvénient de l'utilisation de ces systèmes dans les institutions administratives à la paperasse abandonnée.
