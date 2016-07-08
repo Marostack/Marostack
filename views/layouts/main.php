@@ -48,11 +48,11 @@ if(Yii::$app->language == "AR"){
         echo Nav::widget([
             'options' => ['class' => 'navbar-nav navbar-right'],
             'items' => [
-            ['label' => 'Accueil', 'url' => ['site/index']],
+            ['label' => 'Accueil', 'url' => ['/index']],
             ['label' => 'Présentation', 'items' => [
             "<li class='dropdown-header'>Système d'Information</li>",
                 ['label' => "Mot de la Direction Générale", 'url' => '#'],
-                ['label' => "Activités Marostack", 'url' => '/site/apropos'],
+                ['label' => "Activités Marostack", 'url' => '/apropos'],
 		['label' => "Qualité & Developpement durable", 'url' => '#'],
                 "<li class='divider'></li>",
                 "<li class='dropdown-header'>Ressources</li>",
@@ -60,7 +60,7 @@ if(Yii::$app->language == "AR"){
             ],],
 	   ['label' => 'Expertises', 'items' => [
             "<li class='dropdown-header'>Système d'Information</li>",
-                ['label' => "Étude et Analyse de Faisabilité", 'url' => '/site/etudeanalyse'],
+                ['label' => "Étude et Analyse de Faisabilité", 'url' => '/etudeanalyse'],
                 ['label' => "Migration et Reprise de Données", 'url' => '#'],
                 ['label' => "Cartographie des Processus", 'url' => '#'],
                 ['label' => "Cartographie des Risques", 'url' => '#'],
@@ -102,7 +102,8 @@ if(Yii::$app->language == "AR"){
                 ['label' => "Gestion de la Paie", 'url' => '#'],
             ],
             ],
-            ['label' => 'Formations',
+            ['label' => 'Formations', 'url' => ['site/formations']],
+            /*['label' => 'Formations',
             'items' => [
             '<li class="dropdown-header">Droit informatique</li>',
             ['label' => 'Droit du commerce électronique','url' => '#'],
@@ -122,14 +123,14 @@ if(Yii::$app->language == "AR"){
             ['label' => 'Linux Devs & Servers', 'url' => '#'],
             ['label' => 'Linux Security & Network', 'url' => '#'],
             ],
-            ],
+            ],*/
             ['label' => 'Marques',
             'items' => [
             '<li class="dropdown-header">Hébérgement, Nom de domaine et SSL</li>',            
             ['label' => 'MaghribUp', 'url' => '/maghribup'],
             '<li class="divider"></li>',
             '<li class="dropdown-header">Site vitrine rapide</li>',
-            ['label' => 'MicroSite', 'url' => '/microsite'],
+            ['label' => 'AngSite', 'url' => '/angsite'],
             '<li class="divider"></li>',
             '<li class="dropdown-header">Tableurs de Gestion sur Mesure</li>',            
             ['label' => 'PMEStarter', 'url' => '/pmestarter'],
@@ -149,9 +150,9 @@ if(Yii::$app->language == "AR"){
             ],
             //['label' => 'Technologies', 'url' => ['/site/technologies']],
             //['label' => 'Partenaires', 'url' => ['/site/partener']],
-            ['label' => 'Références', 'url' => ['/site/references']],
+            ['label' => 'Références', 'url' => ['/references']],
             //['label' => 'Evenement', 'url' => ['#']],
-            ['label' => 'Contact', 'url' => ['/site/contact']],
+            ['label' => 'Contact', 'url' => ['/contact']],
 
             // Yii::$app->user->isGuest ?
             //     ['label' => 'Login', 'url' => ['/site/login']] :

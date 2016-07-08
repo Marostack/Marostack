@@ -92,7 +92,7 @@ class SiteController extends Controller
         return $this->render('apropos');
     }
 
-    public function actionEtudenalyse()
+    public function actionEtudeanalyse()
     {
         return $this->render('etudeanalyse');
     }
@@ -112,9 +112,9 @@ class SiteController extends Controller
         return $this->render('maghribup');
     }
 
-    public function actionMicrosite()
+    public function actionAngsite()
     {
-        return $this->render('microsite');
+        return $this->render('angsite');
     }
 
     public function actionPmestarter()
@@ -140,6 +140,11 @@ class SiteController extends Controller
     public function actionNumerini()
     {
         return $this->render('numerini');
+    }
+
+    public function actionFormations()
+    {
+        return $this->render('formations');
     }
 
     public function actionReferences()

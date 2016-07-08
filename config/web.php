@@ -57,19 +57,25 @@ $config = [
                 'showScriptName' => false,
                 'enablePrettyUrl' => true,
                 'rules' => [
-                        'contact' => 'site/contact',
+                        'index' => 'site/index',
+			'contact' => 'site/contact',
                         'apropos' => 'site/apropos',
                         'login' => 'site/login',
-                        'partener' => 'site/partener',
-                        'technologies' => 'site/technologies',
+			'etudeanalyse' => 'site/etudeanalyse',
+
+     			//Marques
                         'maghribup' => 'site/maghribup',
-                        'microsite' => 'site/microsite',
+                        'angsite' => 'site/angsite',
                         'pmestarter' => 'site/pmestarter',
                         'smsdaba' => 'site/smsdaba',
                         'maronethelp' => 'site/maronethelp',
                         'nasna' => 'site/nasna',
                         'numerini' => 'site/numerini',
 
+			//Formations
+			'formations' => 'site/formations',
+			'references' => 'site/references',
+			'' => '',
                         'POST <controller:[\w-]+>s' => '<controller>/create',
                         '<controller:[\w-]+>s' => '<controller>/index',
 
