@@ -49,14 +49,15 @@ if(Yii::$app->language == "AR"){
             'options' => ['class' => 'navbar-nav navbar-right'],
             'items' => [
             ['label' => 'Accueil', 'url' => ['/index']],
-            ['label' => 'Présentation', 'items' => [
-            "<li class='dropdown-header'>Système d'Information</li>",
+            ['label' => 'L\'Entreprise', 'items' => [
+            "<li class='dropdown-header'>Présentation</li>",
                 ['label' => "Mot de la Direction Générale", 'url' => '#'],
-                ['label' => "Activités Marostack", 'url' => '/apropos'],
+                ['label' => "Plan d'Activités Marostack", 'url' => '/apropos'],
 		['label' => "Qualité & Developpement durable", 'url' => '#'],
                 "<li class='divider'></li>",
                 "<li class='dropdown-header'>Ressources</li>",
-                ['label' => "Logos et images de marque", 'url' => '#'],
+                ['label' => "Articles", 'url' => '/articles'],
+                ['label' => "Logos et Marque", 'url' => '#'],
             ],],
 	   ['label' => 'Expertises', 'items' => [
             "<li class='dropdown-header'>Système d'Information</li>",

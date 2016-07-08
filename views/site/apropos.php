@@ -42,6 +42,6 @@ $this->params['breadcrumbs'][] = $this->title;
         Notre équipe d'ingénieurs et de techniciens vous apporte un service performant, avec des avis ou des recommandations sur ce qu'il convient de faire, et en collaboration avec les constructeurs de matériel et les éditeurs de logiciel et de technologies telque la Free Software Fondation.
     </p>		
     <p class="lead text-justify">
-        Plus qu’une simple organisation Informatique, la transformation des métiers et des prestations que nous réalisons pour nos clients privés ou publics, sur l’ensemble des applications et des infrastructures numériques, depuis la conception jusqu’à l’exploitation, est justement le plus grand objectif de notre mission.
+        Plus qu’une simple organisation Informatique/Industriel, la transformation des métiers et des prestations que nous réalisons pour nos clients privés ou publics, sur l’ensemble des applications et des infrastructures numériques, depuis la conception jusqu’à l’exploitation, est justement le plus grand objectif de notre mission.
     </p>
 </div>
