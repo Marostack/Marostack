@@ -7,7 +7,7 @@ $this->title = 'Marostack';
 ?>
 <div class="site-index">
 
-    <div style="text-align:left; padding:10px 50px 0 15px; border-left:10px solid red; margin-bottom: 10px; background-color: #fefff4">
+    <div style="text-align:left; padding:10px 50px 5px 15px; border-left:10px solid red; margin-bottom: 10px; background-color: #fefff4">
         <div class="row">
             <div class="col-md-8">
                 <p class="lead">
@@ -28,7 +28,7 @@ $this->title = 'Marostack';
             système informatique, votre besoin sera traiter avec le niveau le plus optimale en terme de côut et de technologie.
         </p>
 
-        <p class="text-left"><a class="btn btn-default btn-sm" href="/apropos">Plus &raquo;</a></p>
+        <p class="text-right"><a class="btn btn-default btn-sm" href="/apropos">Plus &raquo;</a></p>
     </div>
 
     <div class="body-content">
@@ -155,7 +155,7 @@ $this->title = 'Marostack';
             <div class="col-md-12">
                 <p class="text-justify lead">
                 <?php
-                echo Html::img("imgs/conception.png", ["class" => "img-responsive", "style" => "width:350px; float: left; padding:10px;"]);
+//                echo Html::img("imgs/conception.png", ["class" => "img-responsive", "style" => "width:350px; float: left; padding:10px;"]);
                 ?>
                     L'objectif de construire un système informatique technologiques est d'aider les différentes collaborteur a mieu gérer leur activités du jour au jour, de la rementé d'information, en passent a sont traitement, tout cela et plus de tout ce qui peut aider les organisations dans le processus de prise de décision. Nous vous offerons des systèmes informatisés, destinés aux gestionnaires des differents départements de l'entreprise. 
                 </p>
@@ -168,7 +168,7 @@ $this->title = 'Marostack';
             <div class="col-md-5">
                 <div class="panel panel-info">
                     <div class="panel-heading text-center"><h3>Marostack à la Une</h3></div>
-                    <div class="panel-body" style="max-height: 510px;overflow-y: scroll;">
+                    <div class="panel-body" style="min-height: 508px; padding-bottom: 0px;">
                         <div class="well well-sm">
                             <strong>23/06/2016</strong> : Ftour-Debat sous le théme <i>"La protection de l'Envirenement : des enjeux sociaux et de management des entreprises"</i> organiser en partenariat entre l'Institut Marocain de l'Audit Social -IMAS- et l'Association de Qualité et Management -AQM-.
                         </div>
@@ -180,10 +180,12 @@ $this->title = 'Marostack';
                         <div class="well well-sm">
                             <strong>14/12/2015</strong> : Rencontre d’une délégation d’opérateurs économiques saoudiens à la CGEM, composée des membres du Conseil d’Affaires Maroco-Saoudien, événement de la CGEM.
                         </div>
+                        <br />
+                        <p class="text-right"><a class="btn btn-default btn-sm" href="/articles">Plus &raquo;</a></p>
 
-                        <div class="well well-sm">
+<!--                        <div class="well well-sm">
                             <strong>18/02/2015</strong> : Progrès Economique et Social, rendez-vous de la Commission Emploi et Relations Sociales, au sujet <i>"Quel Modèle Social pour une compétitivité durable et un travail décent ?"</i> organiser par la CGEM.
-                        </div>
+                        </div>-->
                     </div>
                 </div>
             </div>
