@@ -33,117 +33,162 @@ $this->title = 'Marostack';
 
     <div class="body-content">
 
-        <div class="row">
-            <div class="col-lg-4">
-                <h2>Expertises</h2>
 
-                <p class="text-justify" style="line-height:160%">L'expertise de nos collaborateurs nous permet d'intervenir chez nos clients à tous les stades du projet : 
-                    étude d'opportunité, veille technologique, cahier des charges, assistance à maîtrise d'ouvrage, maîtrise 
-                    d'ouvrage déléguée, recette, déploiement, formation des utilisateurs, conduite de changement, évaluation 
-                    en plus des missions post-projet de retour et capitalisation d'experience.</p>
-
-                <p><a class="btn btn-default pull-right" href="#">Plus &raquo;</a></p>
-            </div>
-            <div class="col-lg-4">
-                <h2>Solutions</h2>
-
-                <p class="text-justify" style="line-height:160%">Marostack mis a votre disposition une large panoplie de solution système {logiciel/materiel} dédié 
-                    à different situation de gestion des ressources informationnelles d'entreprise, adapté aux scénarios métiers les plus repondus, 
-                    avec un niveau de paramétrage et de configuration autand profond qu'il est necessaire pour assuré une résultat optimale.</p>
-
-                <p><a class="btn btn-default pull-right" href="#">Plus &raquo;</a></p>
-            </div>
-            <div class="col-lg-4">
-                <h2>Formations</h2>
-
-                <p class="text-justify" style="line-height:160%">
-                    la formation professionnelle participe étroitement à la création des identités professionnelles, c'est pourquoi nous avons adapter nos méthodes suivant 
-                    les lignes de votre strategie de developpement interne, en vous proposent un process d'apprentissage sur mesure, qui permetra a vos equipe d'améliorer et
-                    d'acuerir des complements “savoir et savoir-faire” a leurs compétances métier.
-                </p>
-
-                <p><a class="btn btn-default pull-right" href="#">Plus &raquo;</a></p>
-            </div>
-        </div>
         <div class="content-fluid">
             <div class="row">
                 <div class="col-md-12">
-                    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-                        <!-- Indicators -->
-                        <ol class="carousel-indicators">
-                            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                        </ol>
 
-                        <!-- Wrapper for slides -->
-                        <div class="carousel-inner" role="listbox">
-                            <div class="item active">
-                                <img src="..." alt="...">
-                                <div class="carousel-caption">
-                                    ...
-                                </div>
-                            </div>
-                            <div class="item">
-                                <img src="..." alt="...">
-                                <div class="carousel-caption">
-                                    ...
-                                </div>
-                            </div>
-                            ...
-                        </div>
-
-                        <!-- Controls -->
-                        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                            <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                            <span class="sr-only">Next</span>
-                        </a>
-                    </div>
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="page-header">
-                    <h1>Vous etes meilleurs ! <small> avec un système d'information qui accompagne votre developpment.</small></h1>
+    </div>
+    <br />
+
+
+    <div class="row">
+
+        <div class="col-lg-4">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h1 class="panel-title">Expertises</h1>
                 </div>
-                <p class="text-justify lead">
-                    L'objectif de construire un système informatique technologiques est d'aider les différentes collaborteur a mieu gérer leur activités du jour au jour, de la rementé d'information, en passent a sont traitement, tout cela et plus de tout ce qui peut aider les organisations dans le processus de prise de décision. Nous vous offerons des systèmes informatisés, destinés aux gestionnaires des differents départements de l'entreprise. 
-                </p>
-                <p class="text-justify">
-                    Et aussi connu que les informations à fournir des informations sur le passé et le présent par rapport aux activités de l'institution pour aider la direction dans les systèmes de prise de décision. L'utilisation des institutions des systèmes informatiques dans les processus administratifs à alléger les charges et soulager les charges financières sur le personnel, et surmonte un grand nombre des inconvénients de l'action humaine qui peuvent être causés par l'ennui de la routine, ou le manque de motivation morale travail nécessaire. Il contribue également à réduire la taille des institutions, ce qui augmente le fardeau. La possession d'institutions pour les systèmes d'information de gestion augmente la compétitivité de l'institution dans le milieu de travail. Mais un autre inconvénient de l'utilisation de ces systèmes dans les institutions administratives à la paperasse abandonnée.
-                </p>
+                <div class="panel-body" style="min-height: 300px">
+
+                    <p class="text-justify" style="line-height:160%">L'éxpertise de nos collaborateurs nous permet d'intervenir au profit de nos clients à tous les stades du projet : 
+                        étude d'opportunité, veille technologique, cahier des charges, assistance à maîtrise d'ouvrage, maîtrise 
+                        d'ouvrage déléguée, recette, déploiement, formation des utilisateurs, conduite de changement, évaluation 
+                        en plus des missions post-projet de retour et capitalisation d'experience.</p>
+                    <p><a class="btn btn-sm btn-default pull-right" href="#">Plus &raquo;</a></p>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="col-lg-4">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h1 class="panel-title">Solutions</h1>
+                </div>
+                <div class="panel-body" style="min-height: 300px">
+
+                    <p class="text-justify" style="line-height:160%">Marostack mis a votre disposition une large panoplie de solution système logiciel et/ou materiel dédié 
+                        aux differentes situation de gestion des ressources informationnelles de votre entreprise, adapté aux scénarios métiers les plus repondus, 
+                        avec un niveau de paramétrage et de configuration autand flexible et extensible qu'il est necessaire pour vous assurez un résultat optimale.</p>
+
+                    <p><a class="btn  btn-sm btn-default pull-right" href="#">Plus &raquo;</a></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h1 class="panel-title">Formations</h1>
+                </div>
+                <div class="panel-body" style="min-height: 300px">
+
+                    <p class="text-justify" style="line-height:160%">
+                        la formation professionnelle participe étroitement à la création des identités professionnelles, c'est pourquoi nous avons adapter nos méthodes suivant 
+                        les lignes de votre strategie de developpement interne, en vous proposent un process d'apprentissage sur mesure, qui permetra a vos equipe d'améliorer et
+                        d'acuerir des complements “savoir et savoir-faire” a leurs compétances métier.
+                    </p>
+
+                    <p><a class="btn  btn-sm btn-default pull-right" href="#">Plus &raquo;</a></p>
+                </div>
             </div>
         </div>
     </div>
 
+    <div class="row">
+        <div class="col-md-12">
+            <div class="page-header" style="margin-top:0px;">
+                <h1>Vous etês meilleurs ! <small> Avec un système d'information qui accompagne votre developpment.</small></h1>
+            </div>
+            <!--            <div class="col-md-4">
+                            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                                </ol>
+            
+                                <div class="carousel-inner" role="listbox">
+                                    <div class="item active">
+            <?php
+            //echo Html::img("imgs/yii_diag.png", ["class" => "img-responsive"]);
+            ?>
+                                        <div class="carousel-caption">
+            
+                                        </div>
+                                    </div>
+                                    <div class="item">
+            <?php
+            //echo Html::img("imgs/ux_marostack.png", ["class" => "img-responsive"]);
+            ?>
+                                        <div class="carousel-caption">
+            
+                                        </div>
+                                    </div>
+                                    <div class="item">
+            <?php
+            //echo Html::img("imgs/dash_marostack.png", ["class" => "img-responsive", "style" => "align:top"]);
+            ?>
+                                        <div class="carousel-caption">
+            
+                                        </div>
+                                    </div>
+                                </div>
+            
+                                <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                        </div>-->
+<!--            <div class="col-md-4">
+
+            </div>-->
+            <div class="col-md-12">
+                <p class="text-justify lead">
+                <?php
+                echo Html::img("imgs/conception.png", ["class" => "img-responsive", "style" => "width:350px; float: left; padding:10px;"]);
+                ?>
+                    L'objectif de construire un système informatique technologiques est d'aider les différentes collaborteur a mieu gérer leur activités du jour au jour, de la rementé d'information, en passent a sont traitement, tout cela et plus de tout ce qui peut aider les organisations dans le processus de prise de décision. Nous vous offerons des systèmes informatisés, destinés aux gestionnaires des differents départements de l'entreprise. 
+                </p>
+            </div>
+        </div>
+    </div>
+    <br /><br />
     <div class="content-fluid">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-5">
                 <div class="panel panel-info">
-                    <div class="panel-heading text-center"><h3>A la Une</h3></div>
-                    <div class="panel-body">
+                    <div class="panel-heading text-center"><h3>Marostack à la Une</h3></div>
+                    <div class="panel-body" style="max-height: 510px;overflow-y: scroll;">
                         <div class="well well-sm">
-                            <strong>23/06/2016</strong> : Marostack participe au Ftour-Debat sous le théme <i>"La protection de l'Envirenement : des enjeux sociaux et de management des entreprises"</i> organiser en partenariat entre l'Institut Marocain de l'Audit Social -IMAS- et l'Association de Qualité et Management -AQM-.
+                            <strong>23/06/2016</strong> : Ftour-Debat sous le théme <i>"La protection de l'Envirenement : des enjeux sociaux et de management des entreprises"</i> organiser en partenariat entre l'Institut Marocain de l'Audit Social -IMAS- et l'Association de Qualité et Management -AQM-.
                         </div>
 
                         <div class="well well-sm">
-                            <strong>23/06/2016</strong> : Marostack participe au Ftour-Debat sur le théme <i>"La protection de l'Envirenement : des enjeux sociaux et de management des entreprises"</i> organiser en partenariat entre l'Institut Marocain de l'Audit Social -IMAS- et l'Association de Qualité et Management -AQM-.
+                            <strong>11/04/2016</strong> : La Commission R&D et Relation avec l’Université organise en partenariat avec Maroc Numeric Cluster, l’Académie Hassan II des sciences et Techniques et le Service de la coopération et d’action Culturelle auprès de l’Ambassade de France, une rencontre sur le <i>"BIG DATA : BUSINESS ET INDUSTRIE"</i>.
                         </div>
 
                         <div class="well well-sm">
-                            <strong>23/06/2016</strong> : Marostack participe au Ftour-Debat sur le théme <i>"La protection de l'Envirenement : des enjeux sociaux et de management des entreprises"</i> organiser en partenariat entre l'Institut Marocain de l'Audit Social -IMAS- et l'Association de Qualité et Management -AQM-.
+                            <strong>14/12/2015</strong> : Rencontre d’une délégation d’opérateurs économiques saoudiens à la CGEM, composée des membres du Conseil d’Affaires Maroco-Saoudien, événement de la CGEM.
                         </div>
 
+                        <div class="well well-sm">
+                            <strong>18/02/2015</strong> : Progrès Economique et Social, rendez-vous de la Commission Emploi et Relations Sociales, au sujet <i>"Quel Modèle Social pour une compétitivité durable et un travail décent ?"</i> organiser par la CGEM.
+                        </div>
                     </div>
                 </div>
             </div>
 
-            <div class="col-md-6">
+            <div class="col-md-7">
                 <div class="panel panel-warning">
                     <div class="panel-heading text-center"><h3>Ebauche d'activités</h3></div>
                     <div class="panel-body">
@@ -157,10 +202,49 @@ $this->title = 'Marostack';
                             <br /><br />
                             Le pont a bascule représente un point de contrôle élémentaire dans la chaîne du système d’information interne de Longometal armatures, c’est ainsi que par récurrence, assurer la communication du pont a bascule, l’unique point d’entrée et sortie marchandise et matière première avec les modules de fonctions du système de gestion a fait l’objet d’un projet dont l’objectif été la mise en place d’une solution fiable qui assure l’automatisation et la fiabilité des informations issues de ce poste d’activité.<br /><br />
                             Cet article a pour objectif d’exposer le retour expérience du projet qui permet d’assurer la communication entre le pont a bascule Longometal Armatures - site Berrechid, Maroc -, et le système de gestion d’entreprise SAP sur l’infrastructure Cloud Data Center privé de ArcellorMittal à Luxembourg.<br />
+
                         <p class="text-right"><a class="btn btn-default btn-sm" href="/articles">Plus &raquo;</a></p>
                         </p>
                     </div>
                 </div>
+            </div>
+        </div>
+        <hr />
+
+        <div class="row">
+            <div class="col-md-2 col-xs-4">
+                <?php
+                echo Html::img("imgs/cgem.png", ["class" => "img-responsive text-center"]);
+                ?>
+            </div>
+            <div class="col-md-2 col-xs-4">
+                <?php
+                echo Html::img("imgs/pme-maroc.png", ["class" => "img-responsive text-center"]);
+                ?>
+            </div>
+
+            <div class="col-md-2 col-xs-4">
+                <?php
+                echo Html::img("imgs/anrt_logo.png", ["class" => "img-responsive text-center"]);
+                ?>
+            </div>
+
+            <div class="col-md-2 col-xs-4">
+                <?php
+                echo Html::img("imgs/bmda_logo.png", ["class" => "img-responsive text-center"]);
+                ?>
+            </div>
+
+            <div class="col-md-2 col-xs-4">
+                <?php
+                echo Html::img("imgs/fsf_foot.png", ["class" => "img-responsive text-center"]);
+                ?>
+            </div>
+
+            <div class="col-md-2 col-xs-4">
+                <?php
+                echo Html::img("imgs/hassane_1.png", ["class" => "img-responsive text-center"]);
+                ?>
             </div>
         </div>
     </div>

@@ -138,3 +138,4 @@ $this->params['breadcrumbs'][] = $this->title;
             <td class="text-center"><a class="btn btn-default btn-sm" href="#">Télécharger<a/></td>
         </tr>
     </table>
+</div>

@@ -32,6 +32,7 @@ if(Yii::$app->language == "AR"){
     <?= Html::csrfMetaTags() ?>
     <title><?= Html::encode($this->title) ?></title>
     <?php $this->head() ?>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"></link>
 </head>
 <body>
     <?php $this->beginBody() ?>
@@ -190,7 +191,7 @@ NavBar::end();
                     </p>
                 </div>
                 <div class="col-md-11 text-center">
-                    <p class="text-muted" style="font-size: 14px">&copy; Marostack <?= date('Y') ?> - Tout droits réservé, <a href="#">Mentions légale</a></p>
+                    <p class="text-muted" style="font-size: 14px">&copy; Marostack <?= date('Y') ?>, Tout droits réservé.</p>
                 </div>
             </div>
         </div>
