@@ -22,24 +22,25 @@ $this->params['breadcrumbs'][] = $this->title;
 
 
     <div class="row">
-        <div class="col-md-5 text-center">
-
+        <div class="col-md-6 col-xs-12">
+            <ul class="lead text-justify list-group">
+                <li class="list-group-item">Conception de projet, et determination du besoin</li>
+                <li class="list-group-item">Élaboration du Cahier de Prescription Speciales (CPS)</li>
+                <li class="list-group-item">Contrôler la bonne exécution des travaux</li>
+                <li class="list-group-item">Mise en œuvre, Intégration sur mesure des systémes.</li>
+            </ul>
         </div>
-        <div class="col-md-7">
-              <ul class="lead text-justify">
-                <li>Conception de projet, et determination du besoin</li>
-                <li>Élaborer de cahier des clauses techniques particulières (CCTP)</li>
-                <li>Contrôler la bonne exécution des travaux</li>
-                <li>Mise en œuvre, Intégration sur mesure des systémes.</li>
-                <li>Sécurité des données et des infrastructures.</li>
-                <li>Formation internalisée ou externalisée.</li>
-                <li>Conseil et expertise informatique et industriel.</li>
-                <li>Développement de solutions métiers.</li>
+        <div class="col-md-6 col-xs-12">
+            <ul class="lead text-justify list-group">
+                <li class="list-group-item">Sécurité des données et des infrastructures.</li>
+                <li class="list-group-item">Formation internalisée ou externalisée.</li>
+                <li class="list-group-item">Conseil et expertise informatique et industriel.</li>
+                <li class="list-group-item">Développement de solutions métiers.</li>
             </ul>
         </div>
     </div>
     <p class="lead text-justify">
-        Notre équipe d'ingénieurs et de techniciens vous apporte un service performant, avec des avis ou des recommandations sur ce qu'il convient de faire, et en collaboration avec les constructeurs de matériel et les éditeurs de logiciel et de technologies telque la Free Software Fondation.
+        Nos équipes d'ingénieurs et de techniciens vous apporte un service performant, avec des avis ou des recommandations sur ce qu'il convient de faire, et en collaboration avec les constructeurs de matériel et les éditeurs de logiciel et de technologies telque la Free Software Fondation.
     </p>		
     <p class="lead text-justify">
         Plus qu’une simple organisation Informatique/Industriel, la transformation des métiers et des prestations que nous réalisons pour nos clients privés ou publics, sur l’ensemble des applications et des infrastructures numériques, depuis la conception jusqu’à l’exploitation, est justement le plus grand objectif de notre mission.

@@ -33,3 +33,4 @@ $this->params['breadcrumbs'][] = $this->title;
     d'un changement de carriére telque la transition vers le monde des affaires et d'investissement, ou détenue par 
     une simple curiosité sur « comment ca se passe chez les autres ?», vous etes tous le bienvenue.
 </p>
+</div>

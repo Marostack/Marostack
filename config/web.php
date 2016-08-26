@@ -63,6 +63,7 @@ $config = [
                         'articles' => 'site/articles',
                         'login' => 'site/login',
 			'etudeanalyse' => 'site/etudeanalyse',
+			'engagements' => 'site/engagements',
 
      			//Marques
                         'maghribup' => 'site/maghribup',

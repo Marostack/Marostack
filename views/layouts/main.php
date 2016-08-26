@@ -54,11 +54,11 @@ if(Yii::$app->language == "AR"){
             "<li class='dropdown-header'>Présentation</li>",
                 ['label' => "Mot de la Direction Générale", 'url' => '#'],
                 ['label' => "Plan d'Activités Marostack", 'url' => '/apropos'],
-		['label' => "Qualité & Developpement durable", 'url' => '#'],
+		['label' => "Nos Engagments", 'url' => '/engagements'],
                 "<li class='divider'></li>",
                 "<li class='dropdown-header'>Ressources</li>",
                 ['label' => "Articles", 'url' => '/articles'],
-                ['label' => "Logos et Marque", 'url' => '#'],
+                ['label' => "Logos et Marques", 'url' => '#'],
             ],],
 	   ['label' => 'Expertises', 'items' => [
             "<li class='dropdown-header'>Système d'Information</li>",
@@ -134,17 +134,17 @@ if(Yii::$app->language == "AR"){
             '<li class="dropdown-header">Site vitrine rapide</li>',
             ['label' => 'AngSite', 'url' => '/angsite'],
             '<li class="divider"></li>',
-            '<li class="dropdown-header">Tableurs de Gestion sur Mesure</li>',            
-            ['label' => 'PMEStarter', 'url' => '/pmestarter'],
-            '<li class="divider"></li>',
+//            '<li class="dropdown-header">Tableurs de Gestion sur Mesure</li>',            
+//            ['label' => 'PMEStarter', 'url' => '/pmestarter'],
+//            '<li class="divider"></li>',
             '<li class="dropdown-header">Solution SMS intégrale pour votre SI</li>',            
             ['label' => 'SmsDaba', 'url' => '/smsdaba'],
             '<li class="divider"></li>',
-            '<li class="dropdown-header">Centre de Saisie et de Numérisation</li>',
-            ['label' => 'Numerini', 'url' => '/numerini'],
-            '<li class="divider"></li>',
+//            '<li class="dropdown-header">Centre de Saisie et de Numérisation</li>',
+//            ['label' => 'Numerini', 'url' => '/numerini'],
+//            '<li class="divider"></li>',
             "<li class='dropdown-header'>Plateforme d'Assistance Technique</li>",
-            ['label' => 'MaroNetHelp', 'url' => '/maronethelp'],
+            ['label' => 'MaroHelp', 'url' => '/maronethelp'],
             '<li class="divider"></li>',
             '<li class="dropdown-header">Portail des Idols Marocains</li>',
             ['label' => 'Nasna', 'url' => '/nasna', 'options' => ['style' => 'margin-bottom:5px;']],
@@ -196,7 +196,6 @@ NavBar::end();
             </div>
         </div>
     </footer>
-
     <?php $this->endBody() ?>
 </body>
 </html>
