@@ -216,36 +216,36 @@ $this->title = 'Marostack';
         <div class="row">
             <div class="col-md-2 col-xs-4">
                 <?php
-                echo Html::img("imgs/cgem.png", ["class" => "img-responsive text-center"]);
+                echo Html::img("imgs/logo_marostack_com_.png", ["class" => "img-responsive text-center"]);
                 ?>
             </div>
             <div class="col-md-2 col-xs-4">
                 <?php
-                echo Html::img("imgs/pme-maroc.png", ["class" => "img-responsive text-center"]);
-                ?>
-            </div>
-
-            <div class="col-md-2 col-xs-4">
-                <?php
-                echo Html::img("imgs/anrt_logo.png", ["class" => "img-responsive text-center"]);
+                echo Html::img("imgs/logo_maghribup_com_.png", ["class" => "img-responsive text-center"]);
                 ?>
             </div>
 
             <div class="col-md-2 col-xs-4">
                 <?php
-                echo Html::img("imgs/bmda_logo.png", ["class" => "img-responsive text-center"]);
+                echo Html::img("imgs/samsdaba_logo_mini.png", ["class" => "img-responsive text-center"]);
                 ?>
             </div>
 
             <div class="col-md-2 col-xs-4">
                 <?php
-                echo Html::img("imgs/fsf_foot.png", ["class" => "img-responsive text-center"]);
+                echo Html::img("imgs/marohelp_logo_mini.png", ["class" => "img-responsive text-center"]);
                 ?>
             </div>
 
             <div class="col-md-2 col-xs-4">
                 <?php
-                echo Html::img("imgs/hassane_1.png", ["class" => "img-responsive text-center"]);
+                echo Html::img("imgs/angsite_logo_mini.png", ["class" => "img-responsive text-center"]);
+                ?>
+            </div>
+
+            <div class="col-md-2 col-xs-4">
+                <?php
+                echo Html::img("imgs/nasna_logo_mini.png", ["class" => "img-responsive text-center"]);
                 ?>
             </div>
         </div>

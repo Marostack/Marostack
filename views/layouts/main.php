@@ -52,12 +52,12 @@ if(Yii::$app->language == "AR"){
             ['label' => 'Accueil', 'url' => ['/index']],
             ['label' => 'L\'Entreprise', 'items' => [
             "<li class='dropdown-header'>Présentation</li>",
-                ['label' => "Mot de la Direction Générale", 'url' => '#'],
-                ['label' => "Plan d'Activités Marostack", 'url' => '/apropos'],
+                ['label' => "Mot de la Direction", 'url' => '/dg'],
+                ['label' => "Activités Marostack", 'url' => '/apropos'],
 		['label' => "Nos Engagments", 'url' => '/engagements'],
                 "<li class='divider'></li>",
                 "<li class='dropdown-header'>Ressources</li>",
-                ['label' => "Articles", 'url' => '/articles'],
+                ['label' => "Publications et Media", 'url' => '/articles'],
                 ['label' => "Logos et Marques", 'url' => '#'],
             ],],
 	   ['label' => 'Expertises', 'items' => [
