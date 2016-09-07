@@ -14,7 +14,7 @@ $this->params['breadcrumbs'][] = $this->title;
     </p>
     <br />
     <table class="table table-striped table-bordered">
-        <tr class="info">
+        <tr class="warning">
             <th>Entreprise</th>
             <th style="width:15%">Secteur d'activité</th>
             <th style="width:38%">Description Projet</th>
