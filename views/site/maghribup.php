@@ -18,7 +18,7 @@ $this->params['breadcrumbs'][] = $this->title;
         </div>
         <div class="col-md-4" style="padding-top: 10px; text-align: center;">
             <?php
-            echo Html::img("imgs/logo_maghribup_com_.png");
+            echo Html::img("/imgs/logo_maghribup_com_.png");
             ?>
         </div>
     </div>

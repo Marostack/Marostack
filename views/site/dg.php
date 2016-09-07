@@ -29,7 +29,7 @@ $this->params['breadcrumbs'][] = $this->title;
             <p class="lead text-justify">
                 Notre politique d’entreprise est ainsi a pour objectif de réussir nos missions d’interconnexion
                 entre les solutions systèmes d’informations et les spécification métiers du clients, en se
-                basant sur notre capitale RH et en suivant les consignes optimale à l’état d’art.
+                basant sur notre capitale RH et en suivant les consignes optimale et d’état d’art.
             </p>
             <p class="lead text-right">La Direction.</p>
         </div>
