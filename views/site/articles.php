@@ -13,7 +13,7 @@ $this->params['breadcrumbs'][] = $this->title;
   <div class="panel-heading">
 	<div class="content-fluid">
 		<div class="row">
-			<div class="col-md-10">Projet : Mise en place du systéme d'information de base, Longometal Armatures</div>
+			<div class="col-md-10">Projet : Mise en place du système d'information de base, Longometal Armatures</div>
 			<div class="col-md-2"> <small>| 2 Sep 2015</small></div>
 		</div>
 	</div>

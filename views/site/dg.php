@@ -39,7 +39,7 @@ $this->params['breadcrumbs'][] = $this->title;
             ?>
             <div class="clearfix"></div>
             <p class="small text-center" style="padding: 5px 15px;">
-                M.Mehdi Bamou, Directeur Général de Marostack.<br />
+                <i>M.Mehdi Bamou, Directeur Général de Marostack</i><br />
                 
             </p>
         </div>

@@ -40,7 +40,7 @@ if(Yii::$app->language == "AR"){
     <div class="wrap">
         <?php
         NavBar::begin([
-            'brandLabel' => "#!Marostack_",
+            'brandLabel' => "Société <b>MAROSTACK</b>",
             'brandUrl' => Yii::$app->homeUrl,
             'options' => [
             'class' => 'navbar-inverse navbar-fixed-top',
@@ -49,7 +49,7 @@ if(Yii::$app->language == "AR"){
         echo Nav::widget([
             'options' => ['class' => 'navbar-nav navbar-right'],
             'items' => [
-            ['label' => 'Accueil', 'url' => ['/index']],
+            ['label' => 'Accueil', 'url' => ['/site/index']],
             ['label' => 'L\'Entreprise', 'items' => [
             "<li class='dropdown-header'>Présentation</li>",
                 ['label' => "Mot de la Direction", 'url' => '/dg'],
@@ -57,8 +57,8 @@ if(Yii::$app->language == "AR"){
 		['label' => "Nos Engagments", 'url' => '/engagements'],
                 "<li class='divider'></li>",
                 "<li class='dropdown-header'>Ressources</li>",
-                ['label' => "Publications et Media", 'url' => '/articles'],
-                ['label' => "Logos et Marques", 'url' => '#'],
+                ['label' => "Publications et Media", 'url' => '/site/articles'],
+                ['label' => "Logos et Marques", 'url' => '/logos'],
             ],],
 	   ['label' => 'Expertises', 'items' => [
             "<li class='dropdown-header'>Système d'Information</li>",
@@ -129,7 +129,7 @@ if(Yii::$app->language == "AR"){
             ['label' => 'Marques',
             'items' => [
             '<li class="dropdown-header">Hébérgement, Nom de domaine et SSL</li>',            
-            ['label' => 'MaghribUp', 'url' => '/maghribup'],
+            ['label' => 'MaghribUp', 'url' => '/site/maghribup'],
             '<li class="divider"></li>',
             '<li class="dropdown-header">Site vitrine rapide</li>',
             ['label' => 'AngSite', 'url' => '/angsite'],
@@ -138,7 +138,7 @@ if(Yii::$app->language == "AR"){
 //            ['label' => 'PMEStarter', 'url' => '/pmestarter'],
 //            '<li class="divider"></li>',
             '<li class="dropdown-header">Solution SMS intégrale pour votre SI</li>',            
-            ['label' => 'SmsDaba', 'url' => '/smsdaba'],
+            ['label' => 'SmsDaba', 'url' => '/site/smsdaba'],
             '<li class="divider"></li>',
 //            '<li class="dropdown-header">Centre de Saisie et de Numérisation</li>',
 //            ['label' => 'Numerini', 'url' => '/numerini'],
@@ -147,14 +147,14 @@ if(Yii::$app->language == "AR"){
             ['label' => 'MaroHelp', 'url' => '/maronethelp'],
             '<li class="divider"></li>',
             '<li class="dropdown-header">Portail des Idols Marocains</li>',
-            ['label' => 'Nasna', 'url' => '/nasna', 'options' => ['style' => 'margin-bottom:5px;']],
+            ['label' => 'Nasna', 'url' => '/site/nasna', 'options' => ['style' => 'margin-bottom:5px;']],
             ],
             ],
             //['label' => 'Technologies', 'url' => ['/site/technologies']],
             //['label' => 'Partenaires', 'url' => ['/site/partener']],
-            ['label' => 'Références', 'url' => ['/references']],
+            ['label' => 'Références', 'url' => ['/site/references']],
             //['label' => 'Evenement', 'url' => ['#']],
-            ['label' => 'Contact', 'url' => ['/contact']],
+            ['label' => 'Contact', 'url' => ['/site/contact']],
 
             // Yii::$app->user->isGuest ?
             //     ['label' => 'Login', 'url' => ['/site/login']] :

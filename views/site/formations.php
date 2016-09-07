@@ -10,7 +10,7 @@ $this->params['breadcrumbs'][] = $this->title;
     <h1><?= Html::encode($this->title) ?></h1>
 <div class="row">
 
-  <div class="col-sm-6 col-md-3">
+  <div class="col-sm-6 col-md-4">
     <div class="thumbnail">
       <img src="..." alt="...">
       <div class="caption">
@@ -21,7 +21,7 @@ $this->params['breadcrumbs'][] = $this->title;
     </div>
   </div>
 
-  <div class="col-sm-6 col-md-3">
+  <div class="col-sm-6 col-md-4">
     <div class="thumbnail">
       <img src="..." alt="...">
       <div class="caption">
@@ -32,7 +32,7 @@ $this->params['breadcrumbs'][] = $this->title;
     </div>
   </div>
 
-  <div class="col-sm-6 col-md-3">
+  <div class="col-sm-6 col-md-4">
     <div class="thumbnail">
       <img src="..." alt="...">
       <div class="caption">
@@ -43,11 +43,11 @@ $this->params['breadcrumbs'][] = $this->title;
     </div>
   </div>
 
-  <div class="col-sm-6 col-md-3">
+  <div class="col-sm-6 col-md-4">
     <div class="thumbnail">
       <img src="..." alt="...">
       <div class="caption">
-        <h3>Protection des Données Personnelles</h3>
+        <h3>Les Données Personnelles</h3>
         <p>...</p>
         <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
       </div>
@@ -80,7 +80,7 @@ $this->params['breadcrumbs'][] = $this->title;
     <div class="thumbnail">
       <img src="..." alt="...">
       <div class="caption">
-        <h3>Collaboration interEntrerise</h3>
+        <h3>Collaboration inter-Entreprise</h3>
         <p>...</p>
         <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
       </div>
@@ -135,22 +135,13 @@ $this->params['breadcrumbs'][] = $this->title;
     <div class="thumbnail">
       <img src="..." alt="...">
       <div class="caption">
-        <h3>Linux Devs & Servers</h3>
+        <h3>Gestion de projet</h3>
         <p>...</p>
         <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
       </div>
     </div>
   </div>
-  <div class="col-sm-6 col-md-4">
-    <div class="thumbnail">
-      <img src="..." alt="...">
-      <div class="caption">
-        <h3>Linux Security & Network</h3>
-        <p>...</p>
-        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
-      </div>
-    </div>
-  </div>
+
 
 </div>
 

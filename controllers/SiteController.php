@@ -167,6 +167,11 @@ class SiteController extends Controller
         return $this->render('dg');
     }
 
+     public function actionLogos()
+    {
+        return $this->render('logos');
+    }
+
    /**
      * Ajax handler for language change dropdown list. Sets cookie ready for next request
      */
