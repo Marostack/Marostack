@@ -196,6 +196,9 @@ NavBar::end();
             </div>
         </div>
     </footer>
+        <script type="text/javascript">
+            $('.carousel').carousel()
+        </script>
     <?php $this->endBody() ?>
 </body>
 </html>

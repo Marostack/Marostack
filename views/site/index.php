@@ -7,7 +7,7 @@ $this->title = 'Marostack';
 ?>
 <div class="site-index">
 
-    <div style="text-align:left; padding:10px 50px 5px 15px; border-left:10px solid red; margin-bottom: 10px; background-color: #fefff4">
+    <div style="text-align:left; padding:10px 50px 5px 15px; border-left:10px solid red; margin-bottom: 10px; background-color: #fdffe7">
         <div class="row">
             <div class="col-md-8">
                 <p class="lead">
@@ -37,7 +37,73 @@ $this->title = 'Marostack';
         <div class="content-fluid">
             <div class="row">
                 <div class="col-md-12">
+                    <div class="page-header" style="margin-top:0px;">
+                        <h1>Vous etês meilleurs ! <small> Avec un système d'information qui accompagne votre developpment.</small></h1>
+                    </div>
+                    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="5"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="6"></li>
+                        </ol>
 
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                                <?php echo Html::img("imgs/slide/01.jpeg", ["class" => "img-responsive"]); ?>
+                                <div class="carousel-caption">
+                                </div>
+                            </div>
+                            <div class="item">
+                                <?php echo Html::img("imgs/slide/07.jpeg", ["class" => "img-responsive"]); ?>
+                                <div class="carousel-caption">
+                                </div>
+                            </div>
+                            <div class="item">
+                                <?php echo Html::img("imgs/slide/03.jpeg", ["class" => "img-responsive"]); ?>
+                                <div class="carousel-caption">
+                                </div>
+                            </div>
+                            <div class="item">
+                                <?php echo Html::img("imgs/slide/04.jpeg", ["class" => "img-responsive"]); ?>
+                                <div class="carousel-caption">
+                                </div>
+                            </div>
+                            <div class="item">
+                                <?php echo Html::img("imgs/slide/05.jpeg", ["class" => "img-responsive"]); ?>
+                                <div class="carousel-caption">
+                                    ...
+                                </div>
+                            </div>
+                            <div class="item">
+                                <?php echo Html::img("imgs/slide/06.jpeg", ["class" => "img-responsive"]); ?>
+                                <div class="carousel-caption">
+                                    ...
+                                </div>
+                            </div>
+                            <div class="item">
+                                <?php echo Html::img("imgs/slide/02.jpeg", ["class" => "img-responsive"]); ?>
+                                <div class="carousel-caption">
+                                    ...
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Controls -->
+                        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -48,9 +114,9 @@ $this->title = 'Marostack';
     <div class="row">
 
         <div class="col-lg-4">
-            <div class="panel panel-default">
+            <div class="panel panel-primary">
                 <div class="panel-heading">
-                    <h1 class="panel-title">Expertises</h1>
+                    <h1 class="panel-title lead" style="color:#fff; font-weight: 500">EXPERTISES</h1>
                 </div>
                 <div class="panel-body" style="min-height: 300px">
 
@@ -65,9 +131,9 @@ $this->title = 'Marostack';
 
         </div>
         <div class="col-lg-4">
-            <div class="panel panel-default">
+            <div class="panel panel-primary">
                 <div class="panel-heading">
-                    <h1 class="panel-title">Solutions</h1>
+                    <h1 class="panel-title lead" style="color:#fff; font-weight: 500">SOLUTIONS</h1>
                 </div>
                 <div class="panel-body" style="min-height: 300px">
 
@@ -81,9 +147,9 @@ $this->title = 'Marostack';
         </div>
 
         <div class="col-lg-4">
-            <div class="panel panel-default">
+            <div class="panel panel-primary">
                 <div class="panel-heading">
-                    <h1 class="panel-title">Formations</h1>
+                    <h1 class="panel-title lead" style="color:#fff; font-weight: 500">FORMATIONS</h1>
                 </div>
                 <div class="panel-body" style="min-height: 300px">
 
@@ -100,64 +166,15 @@ $this->title = 'Marostack';
     </div>
 
     <div class="row">
-        <div class="col-md-12">
-            <div class="page-header" style="margin-top:0px;">
-                <h1>Vous etês meilleurs ! <small> Avec un système d'information qui accompagne votre developpment.</small></h1>
-            </div>
-            <!--            <div class="col-md-4">
-                            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-                                <ol class="carousel-indicators">
-                                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                                </ol>
-            
-                                <div class="carousel-inner" role="listbox">
-                                    <div class="item active">
-            <?php
-            //echo Html::img("imgs/yii_diag.png", ["class" => "img-responsive"]);
-            ?>
-                                        <div class="carousel-caption">
-            
-                                        </div>
-                                    </div>
-                                    <div class="item">
-            <?php
-            //echo Html::img("imgs/ux_marostack.png", ["class" => "img-responsive"]);
-            ?>
-                                        <div class="carousel-caption">
-            
-                                        </div>
-                                    </div>
-                                    <div class="item">
-            <?php
-            //echo Html::img("imgs/dash_marostack.png", ["class" => "img-responsive", "style" => "align:top"]);
-            ?>
-                                        <div class="carousel-caption">
-            
-                                        </div>
-                                    </div>
-                                </div>
-            
-                                <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-                                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                                    <span class="sr-only">Previous</span>
-                                </a>
-                                <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-                                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                                    <span class="sr-only">Next</span>
-                                </a>
-                            </div>
-                        </div>-->
-<!--            <div class="col-md-4">
 
-            </div>-->
-            <div class="col-md-12">
-                <p class="text-justify lead">
-                <?php
-//                echo Html::img("imgs/conception.png", ["class" => "img-responsive", "style" => "width:350px; float: left; padding:10px;"]);
-                ?>
-                    L'objectif de construire un système informatique technologiques est d'aider les différentes collaborteur a mieu gérer leur activités du jour au jour, de la rementé d'information, en passent a sont traitement, tout cela et plus de tout ce qui peut aider les organisations dans le processus de prise de décision. Nous vous offerons des systèmes informatisés, destinés aux gestionnaires des differents départements de l'entreprise. 
+
+        <?php // echo Html::img("imgs/slide/06.jpeg", ["class" => "img-responsive"]); ?>
+
+        <div class="col-md-12">
+            <br />
+            <div class="well  well-lg" style="margin-bottom: 0px;">
+                <p class="text-center lead" style="margin-bottom: 0px;">
+                    <i style="font-weight: 400">"Certains déclarent que le succès ne peut naître que de l'exploitation de circonstances favorables. il faut donc, d'abord, les provoquer."</i> - Charles de Gaulle
                 </p>
             </div>
         </div>
@@ -166,7 +183,7 @@ $this->title = 'Marostack';
     <div class="content-fluid">
         <div class="row">
             <div class="col-md-7">
-                <div class="panel panel-primary">
+                <div class="panel panel-warning">
                     <div class="panel-heading text-center"><h3>Ebauche d'activités</h3></div>
                     <div class="panel-body">
                         <div class="page-header" style="margin-top:0px">
@@ -185,8 +202,8 @@ $this->title = 'Marostack';
                     </div>
                 </div>
             </div>
-                        <div class="col-md-5">
-                <div class="panel panel-info">
+            <div class="col-md-5">
+                <div class="panel panel-warning">
                     <div class="panel-heading text-center"><h3>Activités à la Une</h3></div>
                     <div class="panel-body" style="min-height: 508px; padding-bottom: 0px;">
                         <div class="well well-sm">
@@ -203,9 +220,9 @@ $this->title = 'Marostack';
                         <br />
                         <!--<p class="text-right"><a class="btn btn-default btn-sm" href="/articles">Plus &raquo;</a></p>-->
 
-<!--                        <div class="well well-sm">
-                            <strong>18/02/2015</strong> : Progrès Economique et Social, rendez-vous de la Commission Emploi et Relations Sociales, au sujet <i>"Quel Modèle Social pour une compétitivité durable et un travail décent ?"</i> organiser par la CGEM.
-                        </div>-->
+                        <!--                        <div class="well well-sm">
+                                                    <strong>18/02/2015</strong> : Progrès Economique et Social, rendez-vous de la Commission Emploi et Relations Sociales, au sujet <i>"Quel Modèle Social pour une compétitivité durable et un travail décent ?"</i> organiser par la CGEM.
+                                                </div>-->
                     </div>
                 </div>
             </div>
