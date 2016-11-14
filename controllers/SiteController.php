@@ -92,6 +92,16 @@ class SiteController extends Controller
         return $this->render('apropos');
     }
 
+    public function actionExpertises()
+    {
+        return $this->render('expertises');
+    }
+
+    public function actionSolutions()
+    {
+        return $this->render('solutions');
+    }
+
     public function actionEtudeanalyse()
     {
         return $this->render('etudeanalyse');

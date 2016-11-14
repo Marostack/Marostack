@@ -60,6 +60,9 @@ $config = [
                         'index' => 'site/index',
 			'contact' => 'site/contact',
                         'apropos' => 'site/apropos',
+                        'solutions' => 'site/solutions',
+                        'expertises' => 'site/expertises',
+                    
                         'articles' => 'site/articles',
                         'login' => 'site/login',
 			'etudeanalyse' => 'site/etudeanalyse',

@@ -13,20 +13,20 @@ $this->params['breadcrumbs'][] = $this->title;
         <br />Nos clients variés et de secteur d’activité distinct (Industries, Loi, Finance, Technologies, BTP...) nous ont permis d’apprendre de leurs expertise, et de capitalisé une expérience d’interventions sur différents niveaux - de l'étude de faisabilité technique et financière au testes poste projet et recette - du projet pour vous offrir toujours le service de qualité optimale que vous méritez.
     </p>
     <br />
-    <table class="table table-striped table-bordered">
+    <table class="table table-striped table-bordered table-responsive" style="min-width: 500px">
         <tr class="warning">
             <th>Entreprise</th>
             <th style="width:15%">Secteur d'activité</th>
-            <th style="width:38%">Description Projet</th>
-            <th>Type</th>
-            <th class="text-center">Fiche de Référence</th>
+            <th style="width:50%">Description Projet</th>
+            <th style="width:10%">Type</th>
+            <!--<th class="text-center">Fiche de Référence</th>-->
         </tr>
         <tr>
             <td><strong>Bernoussi Legal Help</strong></td>
             <td>Services Juridique</td>
             <td>Portail pour Cabinet Juridique</td>
             <td>Ponctuel</td>
-            <td class="text-center"><a class="btn btn-default btn-sm" href="#">Télécharger<a/></td>
+            <!--<td class="text-center"><a class="btn btn-default btn-sm" href="#">Télécharger<a/></td>-->
         </tr>
         <tr>
             <td><strong>Fluidex Construction</strong></td>
@@ -41,7 +41,7 @@ $this->params['breadcrumbs'][] = $this->title;
                 </ul>		
             </td>
             <td>Contrat-cadre</td>
-            <td class="text-center"><a class="btn btn-default btn-sm" href="#">Télécharger<a/></td>
+            <!--<td class="text-center"><a class="btn btn-default btn-sm" href="#">Télécharger<a/></td>-->
         </tr>
         <tr>
             <td><strong>GMT</strong></td>
@@ -56,14 +56,14 @@ $this->params['breadcrumbs'][] = $this->title;
                 </ul>
             </td>
             <td>Contrat-cadre</td>
-            <td class="text-center"><a class="btn btn-default btn-sm" href="#">Télécharger<a/></td>
+            <!--<td class="text-center"><a class="btn btn-default btn-sm" href="#">Télécharger<a/></td>-->
         </tr>
         <tr>
             <td><strong>Civilia</strong></td>
             <td>Bâtiment et travaux publics</td>
             <td>*</td>
-            <td>Ponctuel</td>
-            <td class="text-center"><a class="btn btn-default btn-sm" href="#">Télécharger<a/></td>
+            <td>Contrat-cadre</td>
+            <!--<td class="text-center"><a class="btn btn-default btn-sm" href="#">Télécharger<a/></td>-->
         </tr>
         <tr>
             <td><strong>Longometal Armatures</strong></td>
@@ -79,63 +79,63 @@ $this->params['breadcrumbs'][] = $this->title;
                 </ul>
             </td>
             <td>Contrat-cadre</td>
-            <td class="text-center"><a class="btn btn-default btn-sm" href="#">Télécharger<a/></td>
+            <!--<td class="text-center"><a class="btn btn-default btn-sm" href="#">Télécharger<a/></td>-->
         </tr>
         <tr>
             <td><strong>Fadico</strong></td>
             <td>Bâtiment et travaux publics</td>
             <td>*</td>
-            <td>Ponctuel</td>
-            <td class="text-center"><a class="btn btn-default btn-sm" href="#">Télécharger<a/></td>
+            <td>Contrat-cadre</td>
+            <!--<td class="text-center"><a class="btn btn-default btn-sm" href="#">Télécharger<a/></td>-->
         </tr>
         <tr>
             <td><strong>STPAR</strong></td>
             <td>Bâtiment et travaux publics</td>
             <td>Systéme d'Information Chantier</td>
             <td>Ponctuel</td>
-            <td class="text-center"><a class="btn btn-default btn-sm" href="#">Télécharger<a/></td>
+            <!--<td class="text-center"><a class="btn btn-default btn-sm" href="#">Télécharger<a/></td>-->
         </tr>
         <tr>
             <td><strong>Brik Consulting</strong></td>
             <td>Services d'expertise Comptable & Financier</td>
             <td>*</td>
             <td>Ponctuel</td>
-            <td class="text-center"><a class="btn btn-default btn-sm" href="#">Télécharger<a/></td>
+            <!--<td class="text-center"><a class="btn btn-default btn-sm" href="#">Télécharger<a/></td>-->
         </tr>
         <tr>
             <td><strong>iConnex</strong></td>
             <td>Services d'expertise Comptable & Financier</td>
             <td>*</td>
             <td>Ponctuel</td>
-            <td class="text-center"><a class="btn btn-default btn-sm" href="#">Télécharger<a/></td>
+            <!--<td class="text-center"><a class="btn btn-default btn-sm" href="#">Télécharger<a/></td>-->
         </tr>
         <tr>
             <td><strong>Booklending</strong></td>
             <td>Librairie privé</td>
             <td>Audit et Optimisation d'infrastructure Cloud</td>
-            <td>Ponctuel</td>
-            <td class="text-center"><a class="btn btn-default btn-sm" href="#">Télécharger<a/></td>
+            <td>Contrat-cadre</td>
+            <!--<td class="text-center"><a class="btn btn-default btn-sm" href="#">Télécharger<a/></td>-->
         </tr>
         <tr>
             <td><strong>Qton Solutions</strong></td>
             <td>Service informatique - Mobile</td>
             <td>*</td>
             <td>Ponctuel</td>
-            <td class="text-center"><a class="btn btn-default btn-sm" href="#">Télécharger<a/></td>
+            <!--<td class="text-center"><a class="btn btn-default btn-sm" href="#">Télécharger<a/></td>-->
         </tr>
         <tr>
             <td><strong>Maison Mousse</strong></td>
             <td>Industriel - Mousse Polyuréthane</td>
             <td>*</td>
             <td>Ponctuel</td>
-            <td class="text-center"><a class="btn btn-default btn-sm" href="#">Télécharger<a/></td>
+            <!--<td class="text-center"><a class="btn btn-default btn-sm" href="#">Télécharger<a/></td>-->
         </tr>
         <tr>
             <td><strong>Gastromix</strong></td>
             <td>Industrie - Agroalimentaire</td>
             <td>Système de Reporting de la chaine post production et preservation fromagerie</td>
             <td>Ponctuel</td>
-            <td class="text-center"><a class="btn btn-default btn-sm" href="#">Télécharger<a/></td>
+            <!--<td class="text-center"><a class="btn btn-default btn-sm" href="#">Télécharger<a/></td>-->
         </tr>
     </table>
 </div>

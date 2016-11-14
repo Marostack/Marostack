@@ -10,7 +10,7 @@ $this->params['breadcrumbs'][] = $this->title;
 <div class="site-about">
     <h1><?= Html::encode($this->title) ?></h1>
     <div class="row">
-        <div class="col-md-8 col-xs-12">
+        <div class="col-md-12 col-xs-12">
             <p class="lead text-justify">
                 La création de Marostack vient pour répondre aux besoins du marché national marocain, 
                 notamment au niveau des projets qui font appel aux technologies de l’information dans 
@@ -33,15 +33,15 @@ $this->params['breadcrumbs'][] = $this->title;
             </p>
             <p class="lead text-right">La Direction.</p>
         </div>
-        <div class="col-md-4 col-xs-12 text-center">
+<!--        <div class="col-md-4 col-xs-12 text-center">
             <?php
-            echo Html::img("imgs/dg_mehdi_bamou.png", ["class" => "img-responsive", "style" => "margin: 0 auto;"]);
+//            echo Html::img("imgs/dg_mehdi_bamou.png", ["class" => "img-responsive", "style" => "margin: 0 auto;"]);
             ?>
             <div class="clearfix"></div>
             <p class="small text-center" style="padding: 5px 15px;">
                 <i>M.Mehdi Bamou, Directeur Général de Marostack</i><br />
                 
             </p>
-        </div>
+        </div>-->
     </div>
 </div>
