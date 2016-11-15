@@ -1,6 +1,6 @@
 <?php
 return [
-	'name' => 'Nom',
+	'name' => 'Nom Complet',
 	'email' => 'Email',
 	'subject' => 'Sujet',
 	'body' => 'Message',

@@ -5,7 +5,7 @@ use yii\helpers\Html;
 
 $this->title = 'Marostack';
 ?>
-<div class="site-index">
+<div class="site-index" style="background-image: url('imgs/index-bottom.jpg'); background-size:100% auto; background-repeat: no-repeat; background-position: center bottom;">
 
     <div style="text-align:left; padding:10px 50px 5px 15px; border-left:10px solid red; margin-bottom: 10px; background-color: #fdffe7">
         <div class="row">
@@ -19,7 +19,7 @@ $this->title = 'Marostack';
                     Spécialisé dans les domaines d'informatique et d'industrie, <span class="text-danger">Marostack</span>  est une entreprise dont le métier est l'utilisation combinée de moyens informatiques, électroniques et 
                     de procédés de télécommunication, dans une vision de mise en place et d'amélioration des systèmes 
                     d'information.
-                    <br /><br />
+                    <br />
                     Que ce soit la création de logiciels sur mesure, la mise en place de progiciels et la modification des fichiers de
                     configuration en fonction des besoins, des opérations de réglage, d'expertise et de surveillance du
                     système informatique, votre besoin sera traiter avec le niveau le plus optimale en terme de côut et de technologie.
@@ -165,7 +165,7 @@ $this->title = 'Marostack';
         <?php // echo Html::img("imgs/slide/06.jpeg", ["class" => "img-responsive"]); ?>
 
         <div class="col-md-12">
-            <div class="well  well-lg " style="margin-bottom: 0px;">
+            <div class="well  well-lg " style="margin-bottom: 0px; ">
                 <p class="text-center lead" style="margin-bottom: 0px;">
                     <i style="font-weight: 400">"Certains déclarent que le succès ne peut naître que de l'exploitation de circonstances favorables. il faut donc, d'abord, les provoquer."</i> - Charles de Gaulle
                 </p>
@@ -195,10 +195,10 @@ $this->title = 'Marostack';
                                 </div>
                             </div>
                         </div>-->
-            <div class="col-md-12">
-                <div class="panel panel-warning">
+            <div class="col-md-6 col-md-offset-6" style=" background-color: transparent;">
+                <div class="panel panel-warning" style=" background-color: transparent;">
                     <div class="panel-heading text-center"><h3>Activités à la Une</h3></div>
-                    <div class="panel-body" style="padding-bottom: 0px;">
+                    <div class="panel-body" style="padding-bottom: 0px; background-color: transparent;  max-height: 330px; overflow-y: scroll;">
 
                         <div class="well well-sm">
                             <strong>07/11/2016</strong> : La 22ème session de la Conférence des Parties de la Convention-Cadre des Nations Unies sur les changements climatiques (COP22) se tiendra à Marrakech du 7 au 18 novembre 2016, Marostack en participe a travers deux tables rondes au sujet "Green Energy toward a Green Technology".

@@ -34,10 +34,13 @@ $this->params['breadcrumbs'][] = $this->title;
 
 
         <div class="row">
-            <div class="col-md-6 col-xs-12">
-                <p>
-                    Si vous avez des questions commerciales ou d'autres, vous etes inviter a remplir le formulaire ci-dessous pour nous contacter. Merci.
+            <div class="col-md-12 col-xs-12">
+                <p class="lead">
+                    Si vous souhaitez avoir nos services, poser des questions ou si vous avez des suggestions sur l'entreprise et ses produits, vous etes inviter a remplir le formulaire ci-dessous pour nous contacter.<br />
+                    Nous sommes toujours à votre écoute et nous vous répondrons le plus rapidement possible.                     
                 </p>
+            </div>
+            <div class="col-md-6 col-xs-12">
 
                 <?php $form = ActiveForm::begin(['id' => 'contact-form']); ?>
 
@@ -51,7 +54,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
                 <?=
                 $form->field($model, 'verifyCode')->widget(Captcha::className(), [
-                    'template' => '<div class="row"><div class="col-lg-3">{image}</div><div class="col-lg-6">{input}</div></div>',
+                    'template' => '<div class="row"><div class="col-lg-3">{image}</div><div class="col-lg-9">{input}</div></div>',
                 ])
                 ?>
 
@@ -63,9 +66,8 @@ $this->params['breadcrumbs'][] = $this->title;
 
             </div>
             <div class="col-md-6" id="draggable">
-                
-            </div>
 
+            </div>
         </div>
 
     <?php endif; ?>
