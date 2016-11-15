@@ -74,7 +74,7 @@ $this->params['breadcrumbs'][] = $this->title;
         <div class="col-sm-6 col-md-4">
             <div class="thumbnail" style="border-left: 6px solid red">
                 <div class="caption">
-                    <h3>Risques des projets</h3><br />
+                    <h3>Risques informatique</h3><br />
                    <ul>
                         <li>text de sous desc</li>
                         <li>text de sous desc</li>

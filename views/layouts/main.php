@@ -81,7 +81,6 @@ if (Yii::$app->language == "AR") {
 //                                                ['label' => "Audit Réseaux et Sécurité d'Accées", 'url' => '#'],
 //                                        ],
 //                                    ],
-                                    
 //                                        ['label' => 'Solutions', 'items' => [
 //                                            '<li class="dropdown-header">Edition de programme</li>',
 //                                                ['label' => 'Application SaaS', 'url' => '#'],
@@ -106,7 +105,7 @@ if (Yii::$app->language == "AR") {
 //                                                ['label' => "Gestion de la Paie", 'url' => '#'],
 //                                        ],
 //                                    ],
-                                        ['label' => 'Formations', 'url' => ['site/formations']],
+                                    ['label' => 'Formations', 'url' => ['site/formations']],
                                     /* ['label' => 'Formations',
                                       'items' => [
                                       '<li class="dropdown-header">Droit informatique</li>',
@@ -173,11 +172,11 @@ if (Yii::$app->language == "AR") {
 
                                 <div>
 
-<?=
-Breadcrumbs::widget([
-    'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
-])
-?>
+                                    <?=
+                                    Breadcrumbs::widget([
+                                        'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
+                                    ])
+                                    ?>
 
                                     <?= $content ?>
                                 </div>
@@ -189,7 +188,7 @@ Breadcrumbs::widget([
                                         <div class="col-md-1">
                                             <p class="pull-right">
                                                 <div  id="language-selector" class="pull-left" >
-                                                    <!-- <?=  \app\components\widgets\LanguageSelector::widget(); ?> -->
+                                                    <!-- <?= \app\components\widgets\LanguageSelector::widget(); ?> -->
                                                 </div>
                                             </p>
                                         </div>
@@ -200,7 +199,10 @@ Breadcrumbs::widget([
                                 </div>
                             </footer>
                             <script type="text/javascript">
-                                $('.carousel').carousel()
+                                $('.carousel').carousel();
+
+                                $(".draggable").draggable();
+
                             </script>
                             <?php $this->endBody() ?>
                     </body>

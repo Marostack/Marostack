@@ -1,5 +1,4 @@
 <?php
-
 /* @var $this yii\web\View */
 /* @var $form yii\bootstrap\ActiveForm */
 /* @var $model app\models\ContactForm */
@@ -8,16 +7,16 @@ use yii\helpers\Html;
 use yii\bootstrap\ActiveForm;
 use yii\captcha\Captcha;
 
-$this->title = 'Contact';
+$this->title = 'Formulaire de contact';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
-<div class="site-contact">
+<div class="site-contact" style="background-image: url('imgs/contact-bg.jpg'); background-size:100% auto; background-repeat: no-repeat;">
     <h1><?= Html::encode($this->title) ?></h1>
 
     <?php if (Yii::$app->session->hasFlash('contactFormSubmitted')): ?>
 
         <div class="alert alert-success">
-            Thank you for contacting us. We will respond to you as soon as possible.
+            Merci de nous contacter. Nous vous répondrons dès que possible.
         </div>
 
         <p>
@@ -35,34 +34,40 @@ $this->params['breadcrumbs'][] = $this->title;
 
 
         <div class="row">
-            <div class="col-lg-6">
-        <p>
-            If you have business inquiries or other questions, please fill out the following form to contact us.
-            Thank you.
-        </p>
+            <div class="col-md-6 col-xs-12">
+                <p>
+                    Si vous avez des questions commerciales ou d'autres, vous etes inviter a remplir le formulaire ci-dessous pour nous contacter. Merci.
+                </p>
 
                 <?php $form = ActiveForm::begin(['id' => 'contact-form']); ?>
 
-                    <?= $form->field($model, 'name') ?>
+                <?= $form->field($model, 'name') ?>
 
-                    <?= $form->field($model, 'email') ?>
+                <?= $form->field($model, 'email') ?>
 
-                    <?= $form->field($model, 'subject') ?>
+                <?= $form->field($model, 'subject') ?>
 
-                    <?= $form->field($model, 'body')->textArea(['rows' => 6]) ?>
+                <?= $form->field($model, 'body')->textArea(['rows' => 6]) ?>
 
-                    <?= $form->field($model, 'verifyCode')->widget(Captcha::className(), [
-                        'template' => '<div class="row"><div class="col-lg-3">{image}</div><div class="col-lg-6">{input}</div></div>',
-                    ]) ?>
+                <?=
+                $form->field($model, 'verifyCode')->widget(Captcha::className(), [
+                    'template' => '<div class="row"><div class="col-lg-3">{image}</div><div class="col-lg-6">{input}</div></div>',
+                ])
+                ?>
 
-                    <div class="form-group">
-                        <?= Html::submitButton('Submit', ['class' => 'btn btn-primary', 'name' => 'contact-button']) ?>
-                    </div>
+                <div class="form-group">
+                    <?= Html::submitButton('Envoyer', ['class' => 'btn btn-primary', 'name' => 'contact-button']) ?>
+                </div>
 
                 <?php ActiveForm::end(); ?>
 
             </div>
+            <div class="col-md-6" id="draggable">
+                
+            </div>
+
         </div>
 
     <?php endif; ?>
 </div>
+
