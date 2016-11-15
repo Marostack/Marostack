@@ -21,10 +21,8 @@ class AppAsset extends AssetBundle {
     public $css = [
         'css/theme-bootstrap.min.css',
         'css/site.css',
-        'css/jquery-ui.min.css',
     ];
     public $js = [
-                'js/jquery-ui.min.js',
     ];
     public $depends = [
         'yii\web\YiiAsset',
