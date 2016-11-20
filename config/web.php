@@ -3,7 +3,7 @@
 $params = require(__DIR__ . '/params.php');
 $config = [
     'language' => 'FR',
-    'sourceLanguage' => 'en-US',
+    'sourceLanguage' => 'fr-FR',
     'id' => 'basic',
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],

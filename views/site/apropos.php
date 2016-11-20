@@ -7,7 +7,7 @@ $this->title = 'Activités Marostack';
 $this->params['breadcrumbs'][] = "Présentation";
 $this->params['breadcrumbs'][] = $this->title;
 ?>
-<div class="site-about">
+<div class="site-about" style="background-image: url('imgs/activite-bg.jpg'); background-size:100% auto; background-repeat: no-repeat;">
     <h1><?= Html::encode($this->title) ?></h1>
 
     <p class="lead text-justify">
@@ -24,18 +24,18 @@ $this->params['breadcrumbs'][] = $this->title;
     <div class="row">
         <div class="col-md-6 col-xs-12">
             <ul class="lead text-justify list-group">
-                <li class="list-group-item">Conception de projet, et determination du besoin</li>
-                <li class="list-group-item">Élaboration du Cahier de Prescription Speciales (CPS)</li>
-                <li class="list-group-item">Contrôler la bonne exécution des travaux</li>
-                <li class="list-group-item">Mise en œuvre, Intégration sur mesure des systémes.</li>
+                <li class="list-group-item" style="background-color:transparent;">Conception de projet, et determination du besoin</li>
+                <li class="list-group-item" style="background-color:transparent;">Élaboration du Cahier de Prescription Speciales (CPS)</li>
+                <li class="list-group-item" style="background-color:transparent;">Contrôler la bonne exécution des travaux</li>
+                <li class="list-group-item" style="background-color:transparent;">Mise en œuvre, Intégration sur mesure des systémes.</li>
             </ul>
         </div>
         <div class="col-md-6 col-xs-12">
             <ul class="lead text-justify list-group">
-                <li class="list-group-item">Sécurité des données et des infrastructures.</li>
-                <li class="list-group-item">Formation internalisée ou externalisée.</li>
-                <li class="list-group-item">Conseil et expertise informatique et industriel.</li>
-                <li class="list-group-item">Développement de solutions métiers.</li>
+                <li class="list-group-item" style="background-color:transparent;">Sécurité des données et des infrastructures.</li>
+                <li class="list-group-item" style="background-color:transparent;">Formation internalisée ou externalisée.</li>
+                <li class="list-group-item" style="background-color:transparent;">Conseil et expertise informatique et industriel.</li>
+                <li class="list-group-item" style="background-color:transparent;">Développement de solutions métiers.</li>
             </ul>
         </div>
     </div>

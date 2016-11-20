@@ -7,7 +7,7 @@ $this->title = "Mot de la direction";
 $this->params['breadcrumbs'][] = "L'entreprise";
 $this->params['breadcrumbs'][] = $this->title;
 ?>
-<div class="site-about">
+<div class="site-about" style="background-image: url('imgs/dg-bg.jpg'); background-size:100% auto; background-repeat: no-repeat;">
     <h1><?= Html::encode($this->title) ?></h1>
     <div class="row">
         <div class="col-md-12 col-xs-12">

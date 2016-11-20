@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'adminEmail' => 'admin@example.com',
+    'adminEmail' => 'contact@marostack.com',
     'languages' => [
     	'EN' => "English",
     	'FR' => "Français",
