@@ -36,8 +36,12 @@ $this->params['breadcrumbs'][] = $this->title;
         <div class="row">
             <div class="col-md-12 col-xs-12">
                 <p class="lead">
-                    Si vous souhaitez avoir nos services, poser des questions ou si vous avez des suggestions sur l'entreprise et ses produits, vous etes inviter a remplir le formulaire ci-dessous pour nous contacter.<br />
-                    Nous sommes toujours à votre écoute et nous vous répondrons le plus rapidement possible.                     
+                    Si vous souhaitez avoir nos services, poser des questions ou si vous avez des suggestions sur l'entreprise et ses produits, vous etes inviter a remplir le formulaire ci-dessous pour nous contacter.
+                    Nous sommes toujours à votre écoute et nous vous répondrons le plus rapidement possible.<br />
+                <div class="text-primary lead" >
+                    Email : contact@marostack.com<br />
+                    Fixe : +212 5 22 51 37 73
+                </div>
                 </p>
             </div>
             <div class="col-md-6 col-xs-12">

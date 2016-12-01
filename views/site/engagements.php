@@ -4,7 +4,7 @@
 use yii\helpers\Html;
 
 $this->title = "L'entreprise - Nos Engagments";
-$this->params['breadcrumbs'][] = "Marques";
+$this->params['breadcrumbs'][] = "L'entreprise";
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="site-about" style="background-image: url('imgs/engagements-bg.jpg'); background-size:100% auto; background-repeat: no-repeat;">

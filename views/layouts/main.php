@@ -47,6 +47,8 @@ if (Yii::$app->language == "AR") {
                             ]);
                             echo Nav::widget([
                                 'options' => ['class' => 'navbar-nav navbar-right'],
+                                'activateItems' => true,
+                                'activateParents' => true,
                                 'items' => [
                                         ['label' => 'Accueil', 'url' => ['/site/index']],
                                         ['label' => 'L\'Entreprise', 'items' => [
@@ -59,8 +61,8 @@ if (Yii::$app->language == "AR") {
 //                ['label' => "Publications et Media", 'url' => '/site/articles'],
 //                ['label' => "Logos et Marques", 'url' => '/logos'],
                                         ],],
-                                        ['label' => 'Expertises', 'url' => ['site/expertises']],
-                                        ['label' => 'Solutions', 'url' => ['site/solutions']],
+                                        ['label' => 'Expertises', 'url' => ['/site/expertises']],
+                                        ['label' => 'Solutions', 'url' => ['/site/solutions']],
 //                                        ['label' => 'Expertises', 'items' => [
 //                                            "<li class='dropdown-header'>Système d'Information</li>",
 //                                                ['label' => "Étude et Analyse de Faisabilité", 'url' => '/etudeanalyse'],
@@ -130,7 +132,7 @@ if (Yii::$app->language == "AR") {
                                         ['label' => 'Marques',
                                         'items' => [
                                             '<li class="dropdown-header">Hébérgement, Nom de domaine et SSL</li>',
-                                                ['label' => 'MaghribUp', 'url' => '/site/maghribup'],
+                                                ['label' => 'MaghribUp', 'url' => '/maghribup'],
 //                                            '<li class="divider"></li>',
 //                                            '<li class="dropdown-header">Site vitrine rapide</li>',
 //                                                ['label' => 'AngSite', 'url' => '/angsite'],
@@ -146,9 +148,9 @@ if (Yii::$app->language == "AR") {
 //                                            '<li class="divider"></li>',
 //                                            "<li class='dropdown-header'>Plateforme d'Assistance Technique</li>",
 //                                                ['label' => 'MaroHelp', 'url' => '/maronethelp'],
-//                                            '<li class="divider"></li>',
-//                                            '<li class="dropdown-header">Portail des Idols Marocains</li>',
-//                                                ['label' => 'Nasna', 'url' => '/site/nasna', 'options' => ['style' => 'margin-bottom:5px;']],
+                                            '<li class="divider"></li>',
+                                            '<li class="dropdown-header">Portail des Idols Marocains</li>',
+                                                ['label' => 'Nasna', 'url' => '/site/nasna', 'options' => ['style' => 'margin-bottom:5px;']],
                                         ],
                                     ],
                                     //['label' => 'Technologies', 'url' => ['/site/technologies']],
@@ -200,9 +202,6 @@ if (Yii::$app->language == "AR") {
                             </footer>
                             <script type="text/javascript">
                                 $('.carousel').carousel();
-
-                                $(".draggable").draggable();
-
                             </script>
                             <?php $this->endBody() ?>
                     </body>

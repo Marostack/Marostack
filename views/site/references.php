@@ -82,19 +82,19 @@ $this->params['breadcrumbs'][] = $this->title;
             <!--<td class="text-center"><a class="btn btn-default btn-sm" href="#">Télécharger<a/></td>-->
         </tr>
         <tr>
-            <td><strong>Fadico</strong></td>
+            <td><strong>Fadico structures</strong></td>
             <td>Bâtiment et travaux publics</td>
             <td>*</td>
             <td>Contrat-cadre</td>
             <!--<td class="text-center"><a class="btn btn-default btn-sm" href="#">Télécharger<a/></td>-->
         </tr>
-        <tr>
+        <!--<tr>
             <td><strong>STPAR</strong></td>
             <td>Bâtiment et travaux publics</td>
             <td>Systéme d'Information Chantier</td>
             <td>Ponctuel</td>
-            <!--<td class="text-center"><a class="btn btn-default btn-sm" href="#">Télécharger<a/></td>-->
-        </tr>
+            <td class="text-center"><a class="btn btn-default btn-sm" href="#">Télécharger<a/></td>
+        </tr>-->
         <tr>
             <td><strong>Brik Consulting</strong></td>
             <td>Services d'expertise Comptable & Financier</td>
@@ -102,13 +102,13 @@ $this->params['breadcrumbs'][] = $this->title;
             <td>Ponctuel</td>
             <!--<td class="text-center"><a class="btn btn-default btn-sm" href="#">Télécharger<a/></td>-->
         </tr>
-        <tr>
+        <!--<tr>
             <td><strong>iConnex</strong></td>
             <td>Services d'expertise Comptable & Financier</td>
             <td>*</td>
             <td>Ponctuel</td>
-            <!--<td class="text-center"><a class="btn btn-default btn-sm" href="#">Télécharger<a/></td>-->
-        </tr>
+            <td class="text-center"><a class="btn btn-default btn-sm" href="#">Télécharger<a/></td>
+        </tr>-->
         <tr>
             <td><strong>Booklending</strong></td>
             <td>Librairie privé</td>
@@ -123,19 +123,19 @@ $this->params['breadcrumbs'][] = $this->title;
             <td>Ponctuel</td>
             <!--<td class="text-center"><a class="btn btn-default btn-sm" href="#">Télécharger<a/></td>-->
         </tr>
-        <tr>
+<!--        <tr>
             <td><strong>Maison Mousse</strong></td>
             <td>Industriel - Mousse Polyuréthane</td>
             <td>*</td>
             <td>Ponctuel</td>
-            <!--<td class="text-center"><a class="btn btn-default btn-sm" href="#">Télécharger<a/></td>-->
+            <!--<td class="text-center"><a class="btn btn-default btn-sm" href="#">Télécharger<a/></td>
         </tr>
         <tr>
             <td><strong>Gastromix</strong></td>
             <td>Industrie - Agroalimentaire</td>
             <td>Système de Reporting de la chaine post production et preservation fromagerie</td>
             <td>Ponctuel</td>
-            <!--<td class="text-center"><a class="btn btn-default btn-sm" href="#">Télécharger<a/></td>-->
-        </tr>
+            <!--<td class="text-center"><a class="btn btn-default btn-sm" href="#">Télécharger<a/></td>
+        </tr>-->
     </table>
 </div>
