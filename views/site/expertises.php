@@ -21,7 +21,7 @@ $this->params['breadcrumbs'][] = $this->title;
         </div>
         <div class="row">
             <div class="col-md-6">
-                <div class="well well-sm">
+                <div class="box" style="text-align:left">
                     <div class="text-primary page-header">
                         <h3>Étude et Analyse de Faisabilité</h3>
                     </div>
@@ -32,18 +32,18 @@ $this->params['breadcrumbs'][] = $this->title;
             </div>
 
             <div class="col-md-6">
-                <div class="well well-sm">
+                <div class="box" style="text-align:left">
                     <div class="text-primary page-header">
                         <h3>Migration et Reprise de Données</h3>
                     </div>
                     <div class="lead">
-                        La migration de données est le processus de transfert de données entre les types de stockage, les formats ou les systèmes informatiques. C'est une considération clé pour toute mise en œuvre, mise à niveau ou consolidation de votre système d'information. La migration des données se produit pour une variété de raisons, notre objectif est de vous assurer un temps optimal, et de vous couvrir des risques de perte et/ou d'authenticité.
+                        La migration de données est le processus de transfert de données entre les types de stockage, les formats ou les systèmes informatiques. C'est une considération clé pour toute mise en œuvre, mise à niveau ou consolidation de votre système d'information. La migration des données se produit pour une variété de raisons, notre objectif est de vous assurer un temps optimal, sans soucis de perte et/ou d'authenticité.
                     </div>
                 </div>
             </div>
 
             <div class="col-md-6">
-                <div class="well well-sm">
+                <div class="box" style="text-align:left">
                     <div class="text-primary page-header">
                         <h3>Élaboration du manuel des procédures</h3>
                     </div>
@@ -55,7 +55,7 @@ $this->params['breadcrumbs'][] = $this->title;
             </div>
 
             <div class="col-md-6">
-                <div class="well well-sm">
+                <div class="box" style="text-align:left">
                     <div class="text-primary page-header">
                         <h3>Évaluation des Risques Informatique</h3>
                     </div>
@@ -76,7 +76,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
 
             <div class="col-md-6">
-                <div class="well well-sm">
+                <div class="box" style="text-align:left">
                     <div class="text-primary page-header">
                         <h3>Maintenance et Évolution Applicative</h3>
                     </div>
@@ -88,7 +88,7 @@ $this->params['breadcrumbs'][] = $this->title;
             </div>
 
             <div class="col-md-6">
-                <div class="well well-sm">
+                <div class="box" style="text-align:left">
                     <div class="text-primary page-header">
                         <h3>Accompagnement du Contrôle Interne</h3>
                     </div>
@@ -99,7 +99,7 @@ $this->params['breadcrumbs'][] = $this->title;
             </div>
 
             <div class="col-md-6">
-                <div class="well well-sm">
+                <div class="box" style="text-align:left">
                     <div class="text-primary page-header">
                         <h3>Audit de vulnerabilité d'Information</h3>
                     </div>
@@ -110,7 +110,7 @@ $this->params['breadcrumbs'][] = $this->title;
             </div>
 
             <div class="col-md-6">
-                <div class="well well-sm">
+                <div class="box" style="text-align:left">
                     <div class="text-primary page-header">
                         <h3>Développement d'applications métiers.</h3>
                     </div>

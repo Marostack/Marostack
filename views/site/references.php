@@ -22,6 +22,20 @@ $this->params['breadcrumbs'][] = $this->title;
             <!--<th class="text-center">Fiche de Référence</th>-->
         </tr>
         <tr>
+            <td><strong>Fadico structures</strong></td>
+            <td>Bâtiment et travaux publics</td>
+            <td>Mise en place du systéme d'information de base :
+                <ul>
+                    <li>Logistique et Achats</li>
+                    <li>Ressources, plannings et reportings chantier</li>
+                    <li>Pointage et rondement journalier</li>
+                    <li>Plateform de partage et d'archivage de documents et PVs</li>
+                </ul>
+            </td>
+            <td>Contrat-cadre</td>
+            <!--<td class="text-center"><a class="btn btn-default btn-sm" href="#">Télécharger<a/></td>-->
+        </tr>
+        <tr>
             <td><strong>Bernoussi Legal Help</strong></td>
             <td>Services Juridique</td>
             <td>Portail pour Cabinet Juridique</td>
@@ -44,7 +58,7 @@ $this->params['breadcrumbs'][] = $this->title;
             <!--<td class="text-center"><a class="btn btn-default btn-sm" href="#">Télécharger<a/></td>-->
         </tr>
         <tr>
-            <td><strong>GMT</strong></td>
+            <td><strong>GMT Maroc</strong></td>
             <td>Industrie - Electricité</td>
             <td>Développement de plateform de Suivi des Missions d'Intervention des Équipes (SIME) :<br />
                 <ul>
@@ -55,22 +69,22 @@ $this->params['breadcrumbs'][] = $this->title;
                     <li>Achat : TCOs, Base fournisseurs et Contrats-cadre</li>
                 </ul>
             </td>
-            <td>Contrat-cadre</td>
+            <td>Ponctuel</td>
             <!--<td class="text-center"><a class="btn btn-default btn-sm" href="#">Télécharger<a/></td>-->
         </tr>
-        <tr>
+        <!--<tr>
             <td><strong>Civilia</strong></td>
             <td>Bâtiment et travaux publics</td>
             <td>*</td>
             <td>Contrat-cadre</td>
-            <!--<td class="text-center"><a class="btn btn-default btn-sm" href="#">Télécharger<a/></td>-->
-        </tr>
+            <td class="text-center"><a class="btn btn-default btn-sm" href="#">Télécharger<a/></td>
+        </tr>-->
         <tr>
             <td><strong>Longometal Armatures</strong></td>
             <td>Industrie - Armatures pour Bétôn Armés</td>
             <td>Mise en place du systéme d'information de base :
                 <ul>
-                    <li>Integration du ERP SAP avec le Pont a Bascule</li>
+                    <li>Integration du ERP SAP avec le Pont a Bascule (Web service SOAP / PI) </li>
                     <li>Gestion de la Logistique et des Achats</li>
                     <li>Planning d'execution et suivi de chantier</li>
                     <li>Reporting Financier (Revision prix, Valorisation stock,...) </li>
@@ -81,13 +95,7 @@ $this->params['breadcrumbs'][] = $this->title;
             <td>Contrat-cadre</td>
             <!--<td class="text-center"><a class="btn btn-default btn-sm" href="#">Télécharger<a/></td>-->
         </tr>
-        <tr>
-            <td><strong>Fadico structures</strong></td>
-            <td>Bâtiment et travaux publics</td>
-            <td>*</td>
-            <td>Contrat-cadre</td>
-            <!--<td class="text-center"><a class="btn btn-default btn-sm" href="#">Télécharger<a/></td>-->
-        </tr>
+        
         <!--<tr>
             <td><strong>STPAR</strong></td>
             <td>Bâtiment et travaux publics</td>
@@ -96,9 +104,9 @@ $this->params['breadcrumbs'][] = $this->title;
             <td class="text-center"><a class="btn btn-default btn-sm" href="#">Télécharger<a/></td>
         </tr>-->
         <tr>
-            <td><strong>Brik Consulting</strong></td>
-            <td>Services d'expertise Comptable & Financier</td>
-            <td>*</td>
+            <td><strong>DAO Cloud</strong></td>
+            <td>Social Network for Wellness</td>
+            <td>Mise en place d'APIs pour les clients mobile Android<sup>&reg;</sup> & Apple IOS<sup>&reg;</sup></td>
             <td>Ponctuel</td>
             <!--<td class="text-center"><a class="btn btn-default btn-sm" href="#">Télécharger<a/></td>-->
         </tr>
@@ -110,16 +118,23 @@ $this->params['breadcrumbs'][] = $this->title;
             <td class="text-center"><a class="btn btn-default btn-sm" href="#">Télécharger<a/></td>
         </tr>-->
         <tr>
-            <td><strong>Booklending</strong></td>
+            <td><strong>Windwalker Media</strong></td>
             <td>Librairie privé</td>
-            <td>Audit et Optimisation d'infrastructure Cloud</td>
+            <td>Audit et Optimisation d'infrastructure Cloud
+            <ul>
+                    <li>Cluster Infrastructure Services</li>
+                    <li>Cluster Resource Manager </li>
+                    <li>Optimisation des coût de l'infrastructure Cloud</li>
+                    <li>Audit des performances de la scalabilité</li>
+                </ul>
+            </td>
             <td>Contrat-cadre</td>
             <!--<td class="text-center"><a class="btn btn-default btn-sm" href="#">Télécharger<a/></td>-->
         </tr>
         <tr>
             <td><strong>Qton Solutions</strong></td>
-            <td>Service informatique - Mobile</td>
-            <td>*</td>
+            <td>Informatique spécialisé - Énergie</td>
+            <td>Systèmes de suivi des installations de comptage de gaz et d'électricité pour fournisseurs d'énergie</td>
             <td>Ponctuel</td>
             <!--<td class="text-center"><a class="btn btn-default btn-sm" href="#">Télécharger<a/></td>-->
         </tr>

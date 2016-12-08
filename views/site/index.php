@@ -22,7 +22,7 @@ $this->title = 'Marostack';
                     <br />
                     Que ce soit la création de logiciels sur mesure, la mise en place de progiciels et la modification des fichiers de
                     configuration en fonction des besoins, des opérations de réglage, d'expertise et de surveillance du
-                    système informatique, votre besoin sera traiter avec le niveau le plus optimale en terme de côut et de technologie.
+                    système informatique, votre besoin sera traiter avec le niveau le plus optimale en terme de coût et de technologie.
                 </p>
 
                 <p class="text-right"><a class="btn btn-default btn-sm" href="/apropos">Plus &raquo;</a></p>

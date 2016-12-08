@@ -200,6 +200,9 @@ if (Yii::$app->language == "AR") {
                                     </div>
                                 </div>
                             </footer>
+                            
+<script src="https://use.fontawesome.com/1a238517ce.js"></script>
+
                             <script type="text/javascript">
                                 $('.carousel').carousel();
                             </script>
